@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100vw;
+  margin: 0;
+
+  background: #FF6666;
+
+  text-align: center;
+}
+
+header {
+  align-self: center;
+
+  background: linear-gradient(0.25turn, yellow, pink,  #FF6666,  salmon, pink, yellow);
+  margin: .5rem;
+  width: 100%;
+}
+
+#title {
+  font-size: 3rem;
+}
