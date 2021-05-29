@@ -1,0 +1,68 @@
+$lorange: #f6d3ac;
+$salmon: #fd766b;
+$torange: #fd4e4d;
+$amaranth: #e5234b;
+$ampurp: #a92d56;
+$black: #000000;
+$white: #ffffff;
+
+@mixin heading-fonts {
+  font-family: 'Signika', Helvetica, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $amaranth;
+};
+
+@mixin body-fonts {
+  font-family: 'Signika Negative', Arial, monospace;
+  color: $black;
+};
+
+body {
+  @include body-fonts;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: $lorange;
+  margin: 0;
+
+  h1, h2 {
+    @include heading-fonts;
+  };
+
+  a {
+    text-decoration: none;
+    @include heading-fonts;
+    &:hover {
+      color: $ampurp;
+    };
+  };
+};
+
+#header {
+  width: 100%;
+
+  background: $torange;
+  border-bottom: 2px solid $salmon;
+
+  position: sticky;
+  top: 0;
+};
+
+#main-nav {
+  display: flex;
+  
+  li {
+    list-style: none;
+    padding: .4rem;
+    a {
+      padding: .4rem;
+      color: $white;
+      &:hover {
+        color: $ampurp;
+      }
+    }
+  }
+};
