@@ -3,8 +3,9 @@ $salmon: #fd766b;
 $torange: #fd4e4d;
 $amaranth: #e5234b;
 $ampurp: #a92d56;
-$black: #000000;
+$highlight: #32c3a6;
 $white: #ffffff;
+$black: #000000;
 
 @mixin heading-fonts {
   font-family: 'Signika', Helvetica, monospace;
@@ -18,12 +19,27 @@ $white: #ffffff;
   color: $black;
 };
 
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+};
+
+@mixin card {
+  text-align: center;
+    background: $white;
+    box-shadow: 10px 10px 2px $salmon;
+    border-radius: 10px;
+    width: 90%;
+    margin: 1rem 0 1rem 0;
+};
+
 body {
   @include body-fonts;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   background: $lorange;
   margin: 0;
@@ -36,7 +52,7 @@ body {
     text-decoration: none;
     @include heading-fonts;
     &:hover {
-      color: $ampurp;
+      color: $highlight;
     };
   };
 };
@@ -53,16 +69,104 @@ body {
 
 #main-nav {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
   
   li {
     list-style: none;
     padding: .4rem;
     a {
       padding: .4rem;
-      color: $white;
+      border: 2px solid $lorange;
+      border-radius: 10px;
+      color: $lorange;
       &:hover {
-        color: $ampurp;
+        color: $highlight;
+        border: 2px solid $highlight;
+        cursor: url('../images/lil-whale.png');
+      };
+    };
+  };
+};
+
+#main-content, #bundle-deals, #hero-section, #portfolio-section, #hire-section, #about-section, #single-deals {
+  @include flex;
+  width: 100%;
+};
+
+#hero-section {
+  height: 87vh;
+
+  h1 {
+    font-size: 3rem;
+  };
+  
+  p {
+    font-weight: bold;
+    margin-top: -2rem;
+  };
+
+  #call-links {
+    margin-top: 4rem;
+    a {
+      text-decoration: underline;
+      font-family: 'Nanum Pen Script';
+      font-size: 1.5rem;
+      padding: 0 1rem 0 1rem;
+    };
+  };
+};
+
+#portfolio-section {
+  h1 {
+    font-size: 2rem;
+  };
+
+  .showcase-item {
+    @include card;
+    figure {
+      img {
+        width: 300px;
       }
+      figcaption {
+        padding: 1rem 0 1rem 0;
+      };
+    };
+  };
+};
+
+#past-gallery {
+  text-align: center;
+  img {
+    padding: 20px 10px 20px 10px;
+  };
+};
+
+.package {
+  @include card;
+  @include flex;
+  h3 {
+    font-size: 1.5rem;
+  }
+  .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  div {
+    margin: 20px 0 20px 0;
+    img {
+      padding: 0 5px 0 5px;
     }
+  }
+  a {
+    display: block;
+    margin: 1rem;
+    background: $torange;
+    width: 75%;
+    padding: 1rem;
+    border-radius: 20px;
+    color: $white;
+
   }
 };
