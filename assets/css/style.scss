@@ -128,7 +128,7 @@ body {
     figure {
       img {
         width: 300px;
-      }
+      };
       figcaption {
         padding: 1rem 0 1rem 0;
       };
@@ -148,17 +148,17 @@ body {
   @include flex;
   h3 {
     font-size: 1.5rem;
-  }
+  };
   .price {
     font-weight: bold;
     font-size: 1.2rem;
-  }
+  };
   div {
     margin: 20px 0 20px 0;
     img {
       padding: 0 5px 0 5px;
     }
-  }
+  };
   a {
     display: block;
     margin: 1rem;
@@ -168,5 +168,27 @@ body {
     border-radius: 20px;
     color: $white;
 
-  }
+  };
 };
+
+#hire-section {
+  width: 95%;
+  form {
+    @include card;
+    padding: 1.5rem 0 1.5rem 0;
+    label {
+      float: left;
+      margin-left: 15px;
+    };
+    input {
+      width: 85%;
+      line-height: 1.5rem;
+      padding: .2rem;
+      margin: .5rem;
+    };
+    div {
+      display: flex;
+      margin: 0 .8rem 0 .8rem;
+    };
+  }
+}
