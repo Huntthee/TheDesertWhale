@@ -5,19 +5,18 @@
 ## The DesertWhale
 Streamer, Artist and all-round wholesome person. This website is to help boost both visibility and engagement with persons seeking commisioned artwork from DesertWhale.
 
-## Here shall be all things needed by DesertWhale!
+This site shall be a hub for all the works done by and information about DesertWhale.
 
-A simple roadmap of features to come.
+![Desert's Midna Emote](assets\images\ednamode.png)
 
- - As a portfolio-page should include, there will be links to various profiles such as Ko-fi, Instagram etc. to showcase artworks. :art:
+----
 
-- There will be a section to include links to and clips from Twitch streams. :red_circle: :movie_camera:
+## Things To Come!
 
-- A simple about page to describe the artist! :scroll:
-
-- Eventually add a contact/order form for potential clients. :pencil:
-
-- Integrate some fancy/subtle animations such as progress bars :heavy_check_mark:
+**A simple roadmap of features to be added.**
+- [x] Update to a Formspree form for contact/order form :pencil:
+- [ ] Integrate some fancy/subtle animations such as progress bars :heavy_check_mark:
+- [ ] Refactor to a dynamic website using Node/Express/MongoDB :computer:
 
 
 ### Attributions: 

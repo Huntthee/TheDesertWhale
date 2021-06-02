@@ -260,16 +260,16 @@
       <h2>Do you need some art done?</h2>
       <p id="contact-text">Get in contact!</p>
 
-      <form action="mailto:jessicajeanson@outlook.com" method="post" enctype="text/plain">
+      <form action="https://formspree.io/f/mqkwqgrg" method="post">
 
-        <label for="name">Name:</label><br>
-        <input type="text" name="name" placeholder="John Doe"><br>
+        <label for="fname">Name:</label><br>
+        <input type="text" name="fname" placeholder="John Doe"><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" name="email" placeholder="johndoe@email.com"><br>
+        <label for="_replyto">Email:</label><br>
+        <input type="email" name="_replyto" placeholder="johndoe@email.com" required><br>
 
-        <label for="order">Your Order/Comments:</label><br>
-        <textarea type="text" maxlength="150" cols="38" rows="4" name="order" placeholder="Do you have a package(s) in mind?"></textarea><br>
+        <label for="message">Your Order/Comments:</label><br>
+        <textarea type="text" maxlength="150" cols="38" rows="4" name="message" placeholder="Do you have a package(s) in mind?" required></textarea><br>
 
         <div>
           <input type="submit" value="Send">
