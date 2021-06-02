@@ -255,6 +255,21 @@ body a:hover {
   padding: 10px 20px;
 }
 
+#about-section #donation-link {
+  background: #e5234b;
+  color: #f6d3ac;
+  border: 2px solid #fd766b;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 20px;
+  width: 50%;
+}
+
+#about-section #donation-link:hover {
+  background: #32c3a6;
+  color: #ffffff;
+}
+
 #footer {
   padding-left: 20px;
 }

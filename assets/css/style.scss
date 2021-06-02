@@ -231,6 +231,22 @@ body {
   p {
     padding: 10px 20px;
   };
+  #donation-link {
+    background: $amaranth;
+    color: $lorange;
+
+    border: 2px solid $salmon;
+    border-radius: 30px;
+
+    margin: 15px;
+    padding: 20px;
+    width: 50%;
+
+    &:hover {
+      background: $highlight;
+      color: $white;
+    };
+  };
 };
 
 
