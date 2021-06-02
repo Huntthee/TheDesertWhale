@@ -145,6 +145,10 @@ body a:hover {
   padding: 20px 10px 20px 10px;
 }
 
+#bundle-deals h2, #single-deals h2 {
+  font-size: 2rem;
+}
+
 .package {
   text-align: center;
   background: #ffffff;
@@ -227,5 +231,102 @@ body a:hover {
   display: -ms-flexbox;
   display: flex;
   margin: 0 .8rem 0 .8rem;
+}
+
+#about-section {
+  text-align: center;
+  background: #ffffff;
+  -webkit-box-shadow: 10px 10px 2px #fd766b;
+          box-shadow: 10px 10px 2px #fd766b;
+  border-radius: 10px;
+  width: 90%;
+  margin: 1rem 0 1rem 0;
+}
+
+#about-section h1 {
+  font-size: 3rem;
+}
+
+#about-section img {
+  padding: 20px 0;
+}
+
+#about-section p {
+  padding: 10px 20px;
+}
+
+#footer {
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  #main-content h1, h2 {
+    font-size: 3rem;
+  }
+  #hero-section {
+    background: url();
+  }
+  #hero-section h1 {
+    font-size: 6rem;
+  }
+  #hero-section p {
+    font-size: 1.5rem;
+  }
+  #hero-section #call-links a {
+    font-size: 2rem;
+    padding: 30px;
+  }
+  #portfolio-section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #portfolio-section .showcase-item {
+    margin: 40px;
+  }
+  #past-gallery {
+    margin: 40px;
+  }
+  #past-gallery .gallery-section img {
+    margin: 40px;
+  }
+  #bundle-deals, #single-deals {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #bundle-deals .package, #single-deals .package {
+    width: 30%;
+    margin: 20px;
+  }
+  #hire-section {
+    width: 45%;
+  }
+  #hire-section #contact-text {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+  #hire-section textarea {
+    width: 85%;
+  }
+  #about-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 50%;
+  }
+  #about-section h2 {
+    display: none;
+  }
+  #about-section p {
+    max-width: 60ch;
+    padding: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

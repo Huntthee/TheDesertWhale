@@ -1,3 +1,4 @@
+// Some fancy colors to make things pop
 $lorange: #f6d3ac;
 $salmon: #fd766b;
 $torange: #fd4e4d;
@@ -7,6 +8,8 @@ $highlight: #32c3a6;
 $white: #ffffff;
 $black: #000000;
 
+
+// general use goodies
 @mixin heading-fonts {
   font-family: 'Signika', Helvetica, monospace;
   font-weight: bold;
@@ -35,6 +38,8 @@ $black: #000000;
     margin: 1rem 0 1rem 0;
 };
 
+
+// Styles for all things everywhere!
 body {
   @include body-fonts;
   display: flex;
@@ -57,6 +62,8 @@ body {
   };
 };
 
+
+// Simple header styles
 #header {
   width: 100%;
 
@@ -67,6 +74,8 @@ body {
   top: 0;
 };
 
+
+// pretty little navigation bar & buttons
 #main-nav {
   display: flex;
   justify-content: center;
@@ -90,11 +99,15 @@ body {
   };
 };
 
+
+// Flex, everywhere!
 #main-content, #bundle-deals, #hero-section, #portfolio-section, #hire-section, #about-section, #single-deals {
   @include flex;
   width: 100%;
 };
 
+
+// Main page styles
 #hero-section {
   height: 87vh;
 
@@ -118,6 +131,8 @@ body {
   };
 };
 
+
+// Portfolio showcase page
 #portfolio-section {
   h1 {
     font-size: 2rem;
@@ -140,6 +155,14 @@ body {
   text-align: center;
   img {
     padding: 20px 10px 20px 10px;
+  };
+};
+
+
+// Styles for the Commissions page
+#bundle-deals, #single-deals {
+  h2 {
+    font-size: 2rem;
   };
 };
 
@@ -171,6 +194,8 @@ body {
   };
 };
 
+
+// Make the form look better
 #hire-section {
   width: 95%;
   form {
@@ -190,5 +215,95 @@ body {
       display: flex;
       margin: 0 .8rem 0 .8rem;
     };
-  }
-}
+  };
+};
+
+
+// Simple about section
+#about-section {
+  @include card;
+  h1 {
+    font-size: 3rem;
+  };
+  img {
+    padding: 20px 0;
+  };
+  p {
+    padding: 10px 20px;
+  };
+};
+
+
+// And finally the footer
+#footer {
+  padding-left: 20px;
+};
+
+// Now for some mediaqueries!
+@media screen and (min-width: 600px) {
+  #main-content h1, h2 {
+    font-size: 3rem;
+  };
+
+  #hero-section {
+    background: url();
+    h1 {
+      font-size: 6rem;
+    };
+    p {
+      font-size: 1.5rem;
+    };
+    #call-links a {
+      font-size: 2rem;
+      padding: 30px;
+    };
+  };
+
+  #portfolio-section {
+    flex-direction: row;
+    .showcase-item {
+      margin: 40px;
+    };
+  };
+
+  #past-gallery {
+    margin: 40px;
+    .gallery-section img {
+      margin: 40px;
+    };
+  };
+
+  #bundle-deals, #single-deals {
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .package {
+      width: 30%;
+      margin: 20px;
+    };
+  };
+
+  #hire-section {
+    width: 45%;
+    #contact-text {
+      font-size: 1.5rem;
+      margin-top: -1rem;
+    };
+    textarea {
+      width: 85%;
+    };
+  };
+
+  #about-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    h2 {
+      display: none;
+    };
+    p {
+      max-width: 60ch;
+      padding: 20px;
+    };
+  };
+};
