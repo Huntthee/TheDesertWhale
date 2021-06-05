@@ -115,6 +115,12 @@ body a:hover {
   padding: 0 1rem 0 1rem;
 }
 
+#portfolio-section {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 #portfolio-section h1 {
   font-size: 2rem;
 }
@@ -181,12 +187,27 @@ body a:hover {
   font-size: 1.2rem;
 }
 
+.package .descr {
+  padding: 0 10px 0 10px;
+}
+
 .package div {
   margin: 20px 0 20px 0;
 }
 
 .package div img {
   padding: 0 5px 0 5px;
+  max-width: 87%;
+}
+
+.package .array {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 30%;
 }
 
 .package a {
@@ -195,6 +216,7 @@ body a:hover {
   background: #fd4e4d;
   width: 75%;
   padding: 1rem;
+  margin-bottom: 2rem;
   border-radius: 20px;
   color: #ffffff;
 }
@@ -320,6 +342,12 @@ body a:hover {
   }
   #portfolio-section .showcase-item {
     margin: 40px;
+  }
+  #portfolio-section .showcase-item h3 {
+    font-size: 1.5rem;
+  }
+  #portfolio-section .showcase-item figure img {
+    width: 100%;
   }
   #past-gallery {
     margin: 40px;

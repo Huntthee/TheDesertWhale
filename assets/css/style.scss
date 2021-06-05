@@ -134,6 +134,8 @@ body {
 
 // Portfolio showcase page
 #portfolio-section {
+  align-items: baseline;
+
   h1 {
     font-size: 2rem;
   };
@@ -176,11 +178,20 @@ body {
     font-weight: bold;
     font-size: 1.2rem;
   };
+  .descr {
+    padding: 0 10px 0 10px;
+  };
   div {
     margin: 20px 0 20px 0;
     img {
       padding: 0 5px 0 5px;
+      max-width: 87%;
     }
+  };
+  .array {
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
   };
   a {
     display: block;
@@ -188,9 +199,9 @@ body {
     background: $torange;
     width: 75%;
     padding: 1rem;
+    margin-bottom: 2rem;
     border-radius: 20px;
     color: $white;
-
   };
 };
 
@@ -299,7 +310,13 @@ body {
   #portfolio-section {
     flex-direction: row;
     .showcase-item {
+      h3 {
+        font-size: 1.5rem;
+      };
       margin: 40px;
+      figure img {
+        width: 100%;
+      }
     };
   };
 
