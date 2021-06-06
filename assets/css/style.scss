@@ -101,7 +101,7 @@ body {
 
 
 // Flex, everywhere!
-#main-content, #bundle-deals, #hero-section, #portfolio-section, #hire-section, #about-section, #single-deals {
+#main-content, #bundle-deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #single-deals {
   @include flex;
   width: 100%;
 };
@@ -133,7 +133,7 @@ body {
 
 
 // Portfolio showcase page
-#portfolio-section {
+#portfolio-section, #display {
   align-items: baseline;
   padding-left: 2rem;
   h1 {
@@ -313,6 +313,7 @@ body {
   #portfolio-section {
     flex-direction: row;
     padding-right: 2rem;
+    
     .showcase-item {
       h3 {
         font-size: 1.5rem;
@@ -321,6 +322,19 @@ body {
       figure img {
         width: 100%;
       }
+    };
+  };
+
+  #display {
+    @include flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 1rem;
+    .showcase-item {
+      max-width: 30%;
+      img {
+        min-width: 87%;
+      };
     };
   };
 
