@@ -32,6 +32,7 @@ body a {
 
 body a:hover {
   color: #32c3a6;
+  cursor: url("../images/cursor-whale.png"), auto;
 }
 
 #header {
@@ -71,7 +72,6 @@ body a:hover {
 #main-nav li a:hover {
   color: #32c3a6;
   border: 2px solid #32c3a6;
-  cursor: url("../images/lil-whale.png");
 }
 
 #main-content, #bundle-deals, #hero-section, #portfolio-section, #hire-section, #about-section, #single-deals {
@@ -119,6 +119,7 @@ body a:hover {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+  padding-left: 2rem;
 }
 
 #portfolio-section h1 {
@@ -137,6 +138,8 @@ body a:hover {
 
 #portfolio-section .showcase-item figure img {
   width: 300px;
+  border: 2px solid #e5234b;
+  margin: 1rem 0;
 }
 
 #portfolio-section .showcase-item figure figcaption {
@@ -339,6 +342,7 @@ body a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding-right: 2rem;
   }
   #portfolio-section .showcase-item {
     margin: 40px;

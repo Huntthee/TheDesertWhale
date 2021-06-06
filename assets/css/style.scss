@@ -58,6 +58,7 @@ body {
     @include heading-fonts;
     &:hover {
       color: $highlight;
+      cursor: url('../images/cursor-whale.png'), auto;
     };
   };
 };
@@ -93,7 +94,6 @@ body {
       &:hover {
         color: $highlight;
         border: 2px solid $highlight;
-        cursor: url('../images/lil-whale.png');
       };
     };
   };
@@ -135,16 +135,19 @@ body {
 // Portfolio showcase page
 #portfolio-section {
   align-items: baseline;
-
+  padding-left: 2rem;
   h1 {
     font-size: 2rem;
   };
 
   .showcase-item {
     @include card;
+
     figure {
       img {
         width: 300px;
+        border: 2px solid $amaranth;
+        margin: 1rem 0;
       };
       figcaption {
         padding: 1rem 0 1rem 0;
@@ -309,6 +312,7 @@ body {
 
   #portfolio-section {
     flex-direction: row;
+    padding-right: 2rem;
     .showcase-item {
       h3 {
         font-size: 1.5rem;

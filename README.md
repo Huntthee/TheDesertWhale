@@ -22,3 +22,5 @@ This site shall be a hub for all the works done by and information about DesertW
 ### Attributions: 
 
 - [Devhints.io](https://devhints.io/sass) Has been of great help with remembering all the bits and pieces available with a bit of SCSS.
+
+- [Alii](https://rawooo.carrd.co/) Another awesome Artist/Streamer! Creator of the cute little placeholder & cursor image.
