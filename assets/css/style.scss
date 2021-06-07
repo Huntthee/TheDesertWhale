@@ -163,6 +163,9 @@ body {
   };
 };
 
+.gallery-section img {
+  max-width: 100px;
+};
 
 // Styles for the Commissions page
 #bundle-deals, #single-deals {
@@ -329,6 +332,7 @@ body {
     @include flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: baseline;
     margin-right: 1rem;
     .showcase-item {
       max-width: 30%;

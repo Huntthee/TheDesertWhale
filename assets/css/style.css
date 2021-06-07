@@ -154,6 +154,10 @@ body a:hover {
   padding: 20px 10px 20px 10px;
 }
 
+.gallery-section img {
+  max-width: 100px;
+}
+
 #bundle-deals h2, #single-deals h2 {
   font-size: 2rem;
 }
@@ -371,6 +375,9 @@ body a:hover {
         flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     margin-right: 1rem;
   }
   #display .showcase-item {
