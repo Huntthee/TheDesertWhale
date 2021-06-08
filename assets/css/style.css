@@ -20,6 +20,10 @@ body h1, body h2 {
   font-weight: bold;
   text-transform: uppercase;
   color: #e5234b;
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
 }
 
 body a {
@@ -74,7 +78,7 @@ body a:hover {
   border: 2px solid #32c3a6;
 }
 
-#main-content, #bundle-deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #single-deals {
+#main-content, .deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #twitch-stream-deal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -158,7 +162,7 @@ body a:hover {
   max-width: 100px;
 }
 
-#bundle-deals h2, #single-deals h2 {
+.deals h2 {
   font-size: 2rem;
 }
 
@@ -392,7 +396,7 @@ body a:hover {
   #past-gallery .gallery-section img {
     margin: 40px;
   }
-  #bundle-deals, #single-deals {
+  .deals {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -403,7 +407,7 @@ body a:hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  #bundle-deals .package, #single-deals .package {
+  .deals .package {
     width: 30%;
     margin: 20px;
   }

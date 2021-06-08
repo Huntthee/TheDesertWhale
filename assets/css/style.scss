@@ -51,6 +51,10 @@ body {
 
   h1, h2 {
     @include heading-fonts;
+    width: 100%;
+    background: $white;
+    text-align: center;
+    text-shadow: 1px 1px $black;
   };
 
   a {
@@ -101,7 +105,7 @@ body {
 
 
 // Flex, everywhere!
-#main-content, #bundle-deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #single-deals {
+#main-content, .deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #twitch-stream-deal {
   @include flex;
   width: 100%;
 };
@@ -168,7 +172,7 @@ body {
 };
 
 // Styles for the Commissions page
-#bundle-deals, #single-deals {
+.deals {
   h2 {
     font-size: 2rem;
   };
@@ -349,7 +353,7 @@ body {
     };
   };
 
-  #bundle-deals, #single-deals {
+  .deals {
     align-items: baseline;
     flex-direction: row;
     flex-wrap: wrap;

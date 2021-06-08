@@ -7,8 +7,6 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 
 This site shall be a hub for all the works done by and information about DesertWhale.
 
-![Desert's Midna Emote](assets\images\ednamode.png)
-
 ----
 
 ## Things To Come!
