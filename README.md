@@ -12,13 +12,15 @@ This site shall be a hub for all the works done by and information about DesertW
 ## Things To Come!
 
 **A simple roadmap of features to be added.**
+
+- [x] Site more-or-less complete! Just fancy stuff left to do.
 - [x] Update to a Formspree form for contact/order form :pencil:
 - [ ] Integrate some fancy/subtle animations such as progress bars :heavy_check_mark:
-- [ ] Refactor to a dynamic website using Node/Express/MongoDB :computer:
+- [ ] Refactor to a dynamic website using Node/Express/MongoDB :computer: can't be done on GitHub Pages :cry:
 
 
 ### Attributions: 
 
 - [Devhints.io](https://devhints.io/sass) Has been of great help with remembering all the bits and pieces available with a bit of SCSS.
 
-- [Alii](https://rawooo.carrd.co/) Another awesome Artist/Streamer! Creator of the cute little placeholder & cursor image.
+- [Alii](https://rawooo.carrd.co/) Another awesome Artist/Streamer! Creator of the cute little favicon and cursor image.

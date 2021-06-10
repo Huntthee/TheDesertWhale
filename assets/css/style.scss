@@ -252,6 +252,7 @@ body {
   #profile-pic {
     border: 2px solid $salmon;
     border-radius: 50%;
+    width: 75%;
   };
   .intro {
     font-weight: bold;
@@ -282,6 +283,20 @@ body {
     &:hover {
       background: $highlight;
       color: $white;
+    };
+  };
+  #progress-bar {
+    background: $lorange;
+    border: 2px solid $amaranth;
+    border-radius: 10px;
+    width: 75%;
+    height: 2rem;
+    margin: 2rem 0;
+    #progress {
+    border-radius: 7px;
+    width: 10%;
+    height: 2rem;
+    background: $amaranth;
     };
   };
 };
@@ -399,6 +414,9 @@ body {
     };
     h2 {
       font-size: 1.5rem;
+    };
+    #profile-pic {
+      width: 50%;
     };
     p {
       max-width: 60ch;

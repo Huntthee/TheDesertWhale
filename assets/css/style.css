@@ -287,6 +287,7 @@ body a:hover {
 #about-section #profile-pic {
   border: 2px solid #fd766b;
   border-radius: 50%;
+  width: 75%;
 }
 
 #about-section .intro {
@@ -321,6 +322,22 @@ body a:hover {
 #about-section #donation-link:hover {
   background: #32c3a6;
   color: #ffffff;
+}
+
+#about-section #progress-bar {
+  background: #f6d3ac;
+  border: 2px solid #e5234b;
+  border-radius: 10px;
+  width: 75%;
+  height: 2rem;
+  margin: 2rem 0;
+}
+
+#about-section #progress-bar #progress {
+  border-radius: 7px;
+  width: 10%;
+  height: 2rem;
+  background: #e5234b;
 }
 
 #footer {
@@ -451,6 +468,9 @@ body a:hover {
   }
   #about-section h2 {
     font-size: 1.5rem;
+  }
+  #about-section #profile-pic {
+    width: 50%;
   }
   #about-section p {
     max-width: 60ch;
