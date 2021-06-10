@@ -246,8 +246,24 @@ body {
   h1 {
     font-size: 3rem;
   };
-  img {
-    padding: 20px 0;
+  h2 {
+    margin-top: -2rem;
+  };
+  #profile-pic {
+    border: 2px solid $salmon;
+    border-radius: 50%;
+  };
+  .intro {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: -1.5rem;
+  };
+  .about {
+    min-width: 75%;
+  };
+  #skill-list {
+    text-align: left;
+    margin: 0 20px;
   };
   p {
     padding: 10px 20px;
@@ -378,8 +394,11 @@ body {
     margin-top: 3rem;
     margin-bottom: 3rem;
     width: 50%;
+    h1 {
+      font-size: 4rem;
+    };
     h2 {
-      display: none;
+      font-size: 1.5rem;
     };
     p {
       max-width: 60ch;

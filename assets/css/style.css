@@ -280,8 +280,28 @@ body a:hover {
   font-size: 3rem;
 }
 
-#about-section img {
-  padding: 20px 0;
+#about-section h2 {
+  margin-top: -2rem;
+}
+
+#about-section #profile-pic {
+  border: 2px solid #fd766b;
+  border-radius: 50%;
+}
+
+#about-section .intro {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: -1.5rem;
+}
+
+#about-section .about {
+  min-width: 75%;
+}
+
+#about-section #skill-list {
+  text-align: left;
+  margin: 0 20px;
 }
 
 #about-section p {
@@ -426,8 +446,11 @@ body a:hover {
     margin-bottom: 3rem;
     width: 50%;
   }
+  #about-section h1 {
+    font-size: 4rem;
+  }
   #about-section h2 {
-    display: none;
+    font-size: 1.5rem;
   }
   #about-section p {
     max-width: 60ch;
