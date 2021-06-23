@@ -149,7 +149,8 @@ body {
 
     figure {
       img {
-        width: 300px;
+        width: 75%;
+        height: auto;
         border: 2px solid $amaranth;
         margin: 1rem 0;
       };
@@ -169,6 +170,7 @@ body {
 
 .gallery-section img {
   max-width: 100px;
+  height: auto;
 };
 
 // Styles for the Commissions page
@@ -196,6 +198,7 @@ body {
     img {
       padding: 0 5px 0 5px;
       max-width: 87%;
+      height: auto;
     }
   };
   .array {
@@ -308,7 +311,7 @@ body {
 };
 
 // Now for some mediaqueries!
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   #main-nav li {
     margin: 0 2rem 0 2rem;
   };
@@ -373,6 +376,7 @@ body {
       max-width: 30%;
       img {
         min-width: 87%;
+        height: auto;
       };
     };
   };

@@ -16,7 +16,8 @@ This site shall be a hub for all the works done by and information about DesertW
 - [x] Site more-or-less complete! Just fancy stuff left to do.
 - [x] Update to a Formspree form for contact/order form :pencil:
 - [ ] Integrate some fancy/subtle animations such as progress bars :heavy_check_mark:
-- [ ] Refactor to a dynamic website using Node/Express/MongoDB :computer: can't be done on GitHub Pages :cry:
+- [ ] Host images on MongoDB to make GitHub repo public.
+
 
 
 ### Attributions: 

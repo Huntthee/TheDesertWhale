@@ -141,7 +141,8 @@ body a:hover {
 }
 
 #portfolio-section .showcase-item figure img, #display .showcase-item figure img {
-  width: 300px;
+  width: 75%;
+  height: auto;
   border: 2px solid #e5234b;
   margin: 1rem 0;
 }
@@ -160,6 +161,7 @@ body a:hover {
 
 .gallery-section img {
   max-width: 100px;
+  height: auto;
 }
 
 .deals h2 {
@@ -209,6 +211,7 @@ body a:hover {
 .package div img {
   padding: 0 5px 0 5px;
   max-width: 87%;
+  height: auto;
 }
 
 .package .array {
@@ -344,7 +347,7 @@ body a:hover {
   padding-left: 20px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   #main-nav li {
     margin: 0 2rem 0 2rem;
   }
@@ -426,6 +429,7 @@ body a:hover {
   }
   #display .showcase-item img {
     min-width: 87%;
+    height: auto;
   }
   #past-gallery {
     margin: 40px;
