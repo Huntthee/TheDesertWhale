@@ -108,11 +108,11 @@ body a:hover {
   margin-top: -2rem;
 }
 
-#hero-section #call-links {
+#hero-section .call-links {
   margin-top: 4rem;
 }
 
-#hero-section #call-links a {
+#hero-section .call-links a {
   text-decoration: underline;
   font-family: 'Nanum Pen Script';
   font-size: 1.5rem;
@@ -269,6 +269,18 @@ body a:hover {
   margin: 0 .8rem 0 .8rem;
 }
 
+#hire-section .twit-link {
+  background: #fd4e4d;
+  color: #ffffff;
+  padding: 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+#hire-section .twit-link:hover {
+  background: #fd766b;
+}
+
 #about-section {
   text-align: center;
   background: #ffffff;
@@ -338,7 +350,7 @@ body a:hover {
 
 #about-section #progress-bar #progress {
   border-radius: 7px;
-  width: 10%;
+  width: 15%;
   height: 2rem;
   background: #e5234b;
 }

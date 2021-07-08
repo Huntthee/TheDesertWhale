@@ -124,7 +124,7 @@ body {
     margin-top: -2rem;
   };
 
-  #call-links {
+  .call-links {
     margin-top: 4rem;
     a {
       text-decoration: underline;
@@ -240,6 +240,16 @@ body {
       margin: 0 .8rem 0 .8rem;
     };
   };
+  .twit-link {
+    background: $torange;
+    color: $white;
+    padding: 1rem;
+    border: 2px solid $white;
+    border-radius: 20px;
+    &:hover {
+      background: $salmon;
+    }
+  }
 };
 
 
@@ -297,7 +307,7 @@ body {
     margin: 2rem 0;
     #progress {
     border-radius: 7px;
-    width: 10%;
+    width: 15%;
     height: 2rem;
     background: $amaranth;
     };
