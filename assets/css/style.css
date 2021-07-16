@@ -1,6 +1,8 @@
 body {
   font-family: 'Signika Negative', Arial, monospace;
   color: #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,10 +29,10 @@ body h1, body h2 {
 }
 
 body a {
-  text-decoration: none;
   font-family: 'Signika', Helvetica, monospace;
-  font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
   color: #e5234b;
 }
 
@@ -41,6 +43,7 @@ body a:hover {
 
 #header {
   width: 100%;
+  height: 50px;
   background: #fd4e4d;
   border-bottom: 2px solid #fd766b;
   position: -webkit-sticky;
@@ -48,34 +51,32 @@ body a:hover {
   top: 0;
 }
 
+#bars {
+  margin: .5rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background: #a92d56;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
 #main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 4rem;
+  position: absolute;
+  margin: -1rem 0 0 1rem;
+  list-style: none;
+  display: none;
 }
 
 #main-nav li {
-  list-style: none;
-  padding: .2rem;
+  background: #f6d3ac;
+  padding: 1rem;
+  border: 1px solid #fd766b;
+  font-size: 1.2rem;
 }
 
 #main-nav li a {
-  padding: .4rem;
-  border: 2px solid #f6d3ac;
-  border-radius: 10px;
-  color: #f6d3ac;
-}
-
-#main-nav li a:hover {
-  color: #32c3a6;
-  border: 2px solid #32c3a6;
+  padding: 1rem;
 }
 
 #main-content, .deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #twitch-stream-deal {
@@ -360,9 +361,6 @@ body a:hover {
 }
 
 @media screen and (min-width: 900px) {
-  #main-nav li {
-    margin: 0 2rem 0 2rem;
-  }
   #main-content h1, h2 {
     font-size: 3rem;
   }
@@ -379,23 +377,12 @@ body a:hover {
     text-align: center;
   }
   #hero-section p {
-    font-size: 2rem;
-    color: white;
-    position: relative;
-    top: -6rem;
-    text-shadow: 2px 2px #a92d56;
     display: none;
   }
-  #hero-section #call-links a {
-    font-size: 2rem;
-    padding: 30px;
-    position: relative;
-    top: 5rem;
-    color: #ffffff;
-    text-shadow: 1px 1px #a92d56;
-  }
-  #hero-section #call-links a:hover {
-    color: #32c3a6;
+  #hero-section a {
+    background: #ffffff;
+    border-radius: 15px;
+    text-decoration: none;
   }
   #portfolio-section {
     -webkit-box-orient: horizontal;
