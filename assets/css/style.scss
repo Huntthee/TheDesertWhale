@@ -88,8 +88,8 @@ body {
 #bars {
   margin: .5rem;
   font-size: 1.8rem;
-  color: $white;
-  background: $ampurp;
+  color: $ampurp;
+  background: $white;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -103,12 +103,15 @@ body {
   list-style: none;
   display: none;
   li {
-    background: $lorange;
+    background: $white;
     padding: 1rem;
     border: 1px solid $salmon;
     font-size: 1.2rem;
     a {
       padding: 1rem;
+    }
+    &:focus {
+      background: $white;
     }
   }
 }
@@ -219,12 +222,16 @@ body {
   a {
     display: block;
     margin: 1rem;
-    background: $torange;
+    background: $lorange;
     width: 75%;
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 20px;
-    color: $white;
+    color: $amaranth;
+    &:hover {
+      background: $torange;
+      color: white;
+    }
   };
 };
 
@@ -325,6 +332,29 @@ body {
 };
 
 
+// Policy page outlining working conditions, payment expectations and needed articles from the client.
+#policy-page {
+  @include card;
+  margin-top: 3rem;
+  .bold {
+    font-weight: bold;
+  }
+  ul {
+    padding: 0 10% 0 10%;
+    li {
+    font-size: 1.4rem;
+    text-align: left;
+    }
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-left: 10%;
+    max-width: 80%;
+  }
+}
+
+
 // And finally the footer
 #footer {
   padding-left: 20px;
@@ -334,6 +364,28 @@ body {
 
 // Now for some mediaqueries!
 @media screen and (min-width: 900px) {
+  #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #bars {
+    display: none;
+    }
+    #main-nav {
+      display: flex;
+      li {
+        background: $lorange;
+        margin: 1rem 1.5rem 0 1.5rem;
+        padding: .5rem;
+        border-radius: 25px;
+        &:hover {
+          background: $white;
+        }
+      }
+    }
+  }
+  
+
   #main-content h1, h2 {
     font-size: 3rem;
   };
@@ -352,10 +404,16 @@ body {
     p {
       display: none;
     };
-    a {
-      background: $white;
-      border-radius: 15px;
-      text-decoration: none;
+    .call-links {
+      margin-bottom: 2rem;
+      a {
+        background: $white;
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 1rem;
+        margin-left: 3rem;
+
+      }
     }
   };
 

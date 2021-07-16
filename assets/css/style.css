@@ -54,8 +54,8 @@ body a:hover {
 #bars {
   margin: .5rem;
   font-size: 1.8rem;
-  color: #ffffff;
-  background: #a92d56;
+  color: #a92d56;
+  background: #ffffff;
   border-radius: 10px;
   border: none;
   cursor: pointer;
@@ -69,7 +69,7 @@ body a:hover {
 }
 
 #main-nav li {
-  background: #f6d3ac;
+  background: #ffffff;
   padding: 1rem;
   border: 1px solid #fd766b;
   font-size: 1.2rem;
@@ -77,6 +77,10 @@ body a:hover {
 
 #main-nav li a {
   padding: 1rem;
+}
+
+#main-nav li:focus {
+  background: #ffffff;
 }
 
 #main-content, .deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #twitch-stream-deal {
@@ -228,12 +232,17 @@ body a:hover {
 .package a {
   display: block;
   margin: 1rem;
-  background: #fd4e4d;
+  background: #f6d3ac;
   width: 75%;
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 20px;
-  color: #ffffff;
+  color: #e5234b;
+}
+
+.package a:hover {
+  background: #fd4e4d;
+  color: white;
 }
 
 #hire-section {
@@ -356,11 +365,69 @@ body a:hover {
   background: #e5234b;
 }
 
+#policy-page {
+  text-align: center;
+  background: #ffffff;
+  -webkit-box-shadow: 10px 10px 2px #fd766b;
+          box-shadow: 10px 10px 2px #fd766b;
+  border-radius: 10px;
+  width: 90%;
+  margin: 1rem 0 1rem 0;
+  margin-top: 3rem;
+}
+
+#policy-page .bold {
+  font-weight: bold;
+}
+
+#policy-page ul {
+  padding: 0 10% 0 10%;
+}
+
+#policy-page ul li {
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+#policy-page p {
+  font-size: 1.5rem;
+  margin-left: 10%;
+  max-width: 80%;
+}
+
 #footer {
   padding-left: 20px;
 }
 
 @media screen and (min-width: 900px) {
+  #header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #header #bars {
+    display: none;
+  }
+  #header #main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #header #main-nav li {
+    background: #f6d3ac;
+    margin: 1rem 1.5rem 0 1.5rem;
+    padding: .5rem;
+    border-radius: 25px;
+  }
+  #header #main-nav li:hover {
+    background: #ffffff;
+  }
   #main-content h1, h2 {
     font-size: 3rem;
   }
@@ -379,10 +446,15 @@ body a:hover {
   #hero-section p {
     display: none;
   }
-  #hero-section a {
+  #hero-section .call-links {
+    margin-bottom: 2rem;
+  }
+  #hero-section .call-links a {
     background: #ffffff;
-    border-radius: 15px;
+    border-radius: 25px;
     text-decoration: none;
+    padding: 1rem;
+    margin-left: 3rem;
   }
   #portfolio-section {
     -webkit-box-orient: horizontal;
