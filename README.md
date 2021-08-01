@@ -17,11 +17,13 @@ This site shall be a hub for all the works done by and information about DesertW
 - [x] Update to a Formspree form for contact/order form :pencil:
 - [ ] Integrate some fancy/subtle animations such as progress bars :heavy_check_mark:
 - [ ] Host images on MongoDB to make GitHub repo public.
+- [ ] Turn plain HTML site into React site. 
 
 
 
 ### Attributions: 
 
 - [Devhints.io](https://devhints.io/sass) Has been of great help with remembering all the bits and pieces available with a bit of SCSS.
-
+- [Google](https://google.com) for all things
 - [Alii](https://rawooo.carrd.co/) Another awesome Artist/Streamer! Creator of the cute little favicon and cursor image.
+- [Codecademy](https://codecademy.com) to learn React
