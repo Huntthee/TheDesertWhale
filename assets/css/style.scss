@@ -358,6 +358,7 @@ body {
 // And finally the footer
 #footer {
   padding-left: 20px;
+  z-index: 100;
 };
 
 
@@ -365,14 +366,16 @@ body {
 // Now for some mediaqueries!
 @media screen and (min-width: 900px) {
   #header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     #bars {
     display: none;
     }
     #main-nav {
       display: flex;
+      flex-direction: column;
+      background: $torange;
+      left: -16px;
+      padding-top: 2rem;
+      height: 96.1vh;
       li {
         background: $lorange;
         margin: 1rem 1.5rem 0 1.5rem;
@@ -392,6 +395,7 @@ body {
 
   #hero-section {
     background: url('../images/tdw-2.jpg');
+    
     h1 {
       font-size: 10rem;
       margin-top: -15rem;
@@ -405,7 +409,6 @@ body {
       display: none;
     };
     .call-links {
-      margin-bottom: 2rem;
       a {
         background: $white;
         border-radius: 25px;
@@ -419,7 +422,6 @@ body {
 
   #portfolio-section {
     flex-direction: row;
-    padding-right: 2rem;
     
     .showcase-item {
       h3 {
@@ -439,9 +441,9 @@ body {
     align-items: baseline;
     margin-right: 1rem;
     .showcase-item {
-      max-width: 30%;
+      width: 30%;
       img {
-        min-width: 87%;
+        width: 100%;
         height: auto;
       };
     };
@@ -493,4 +495,7 @@ body {
       padding: 20px;
     };
   };
+  #footer {
+    display: none;
+  }
 };

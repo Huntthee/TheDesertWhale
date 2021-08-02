@@ -5,9 +5,7 @@
 ## The DesertWhale
 Streamer, Artist and all-round wholesome person. This website is to help boost both visibility and engagement with persons seeking commisioned artwork from DesertWhale.
 
-This site shall be a hub for all the works done by and information about DesertWhale.
-
-----
+---
 
 ## Things To Come!
 
@@ -19,7 +17,7 @@ This site shall be a hub for all the works done by and information about DesertW
 - [ ] Host images on MongoDB to make GitHub repo public.
 - [ ] Turn plain HTML site into React site. 
 
-
+--- 
 
 ### Attributions: 
 

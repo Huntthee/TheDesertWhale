@@ -397,20 +397,10 @@ body a:hover {
 
 #footer {
   padding-left: 20px;
+  z-index: 100;
 }
 
 @media screen and (min-width: 900px) {
-  #header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   #header #bars {
     display: none;
   }
@@ -418,6 +408,14 @@ body a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #fd4e4d;
+    left: -16px;
+    padding-top: 2rem;
+    height: 96.1vh;
   }
   #header #main-nav li {
     background: #f6d3ac;
@@ -446,9 +444,6 @@ body a:hover {
   #hero-section p {
     display: none;
   }
-  #hero-section .call-links {
-    margin-bottom: 2rem;
-  }
   #hero-section .call-links a {
     background: #ffffff;
     border-radius: 25px;
@@ -461,7 +456,6 @@ body a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-right: 2rem;
   }
   #portfolio-section .showcase-item {
     margin: 40px;
@@ -496,10 +490,10 @@ body a:hover {
     margin-right: 1rem;
   }
   #display .showcase-item {
-    max-width: 30%;
+    width: 30%;
   }
   #display .showcase-item img {
-    min-width: 87%;
+    width: 100%;
     height: auto;
   }
   #past-gallery {
@@ -550,6 +544,9 @@ body a:hover {
   #about-section p {
     max-width: 60ch;
     padding: 20px;
+  }
+  #footer {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
