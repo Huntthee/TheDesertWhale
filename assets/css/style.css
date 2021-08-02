@@ -68,6 +68,10 @@ body a:hover {
   display: none;
 }
 
+#main-nav a img {
+  display: none;
+}
+
 #main-nav li {
   background: #ffffff;
   padding: 1rem;
@@ -415,7 +419,9 @@ body a:hover {
     background: #fd4e4d;
     left: -16px;
     padding-top: 2rem;
-    height: 96.1vh;
+    height: 65vh;
+    border: 0px solid black;
+    border-radius: 0 0 15px 0;
   }
   #header #main-nav li {
     background: #f6d3ac;
@@ -426,6 +432,17 @@ body a:hover {
   #header #main-nav li:hover {
     background: #ffffff;
   }
+  #header #main-nav a {
+    padding-top: 2rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #header #main-nav a img {
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
   #main-content h1, h2 {
     font-size: 3rem;
   }
@@ -433,13 +450,7 @@ body a:hover {
     background: url("../images/tdw-2.jpg");
   }
   #hero-section h1 {
-    font-size: 10rem;
-    margin-top: -15rem;
-    color: #ffffff;
-    text-shadow: 2px 2px #a92d56;
-    background: #32c3a6;
-    width: 100%;
-    text-align: center;
+    display: none;
   }
   #hero-section p {
     display: none;
