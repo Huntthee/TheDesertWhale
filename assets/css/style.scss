@@ -9,7 +9,9 @@ $white: #ffffff;
 $black: #000000;
 
 
-// general use goodies
+/*
+  General use goodies! Package up some often used code.
+*/  
 @mixin heading-fonts {
   font-family: 'Signika', Helvetica, monospace;
   font-weight: bold;
@@ -21,6 +23,10 @@ $black: #000000;
   font-family: 'Signika Negative', Arial, monospace;
   color: $black;
 };
+
+@mixin spec-font {
+  font-family: 'Nanum pen script', Arial, monospace;
+}
 
 @mixin flex {
   display: flex;
@@ -39,7 +45,7 @@ $black: #000000;
 };
 
 
-// Styles for all things everywhere!
+// Main styles for the body, headings and links!
 body {
   @include body-fonts;
   box-sizing: border-box;
@@ -72,7 +78,7 @@ body {
 };
 
 
-// Simple header styles
+// Simple header styles for mobile
 #header {
   width: 100%;
   height: 50px;
@@ -84,7 +90,7 @@ body {
   top: 0;
 };
 
-// Get the fontawesome bars in the right spot
+// Get the fontawesome bars in the right spot and lookin good, enable pointer.
 #bars {
   margin: .5rem;
   font-size: 1.8rem;
@@ -96,7 +102,7 @@ body {
 }
 
 
-// Let's make sure the nav bar is displayed as a hamburger menu on mobile devices
+// Let's make sure the nav bar is displayed as a hamburger menu on mobile devices.
 #main-nav {
   position: absolute;
   margin: -1rem 0 0 1rem;
@@ -119,6 +125,9 @@ body {
       background: $white;
     }
   }
+  #logo-name {
+    display: none;
+  };
 }
 
 
@@ -129,7 +138,7 @@ body {
 };
 
 
-// Main page styles
+// Home page styles
 #hero-section {
   height: 87vh;
 
@@ -142,15 +151,17 @@ body {
     margin-top: -2rem;
   };
 
+  // Call to action links
   .call-links {
     margin-top: 4rem;
     a {
+      @include spec-font;
       text-decoration: underline;
-      font-family: 'Nanum Pen Script';
       font-size: 1.5rem;
       padding: 0 1rem 0 1rem;
     };
   };
+  
 };
 
 
@@ -368,12 +379,20 @@ body {
 
 
 
-// Now for some mediaqueries!
+/*
+ --------------    Now for some mediaqueries! ---------------
+*/
+
+
 @media screen and (min-width: 900px) {
   #header {
+    background: $lorange;
+    border: none;
+    // Hide the hamburger menu
     #bars {
     display: none;
     }
+    // Display the navigation as a nice sidebar
     #main-nav {
       display: flex;
       flex-direction: column;
@@ -381,7 +400,8 @@ body {
       left: -16px;
       padding-top: 2rem;
       height: 65vh;
-      border: 0px solid black;
+      border-right: 2px solid $lorange;
+      border-bottom: 2px solid $lorange;
       border-radius: 0 0 15px 0;
       li {
         background: $lorange;
@@ -402,6 +422,15 @@ body {
         }
         
       }
+      #logo-name {
+        @include spec-font;
+        font-size: 1.5rem;
+        text-align: center;
+
+        color: $white;
+        
+        margin-top: 1px;
+      }
     }
   }
   
@@ -419,12 +448,75 @@ body {
       display: none;
     };
     .call-links {
+      padding-bottom: 25rem;
       a {
         background: $white;
         border-radius: 25px;
         text-decoration: none;
         padding: 1rem;
         margin-left: 3rem;
+      }
+      .btn:link,
+      .btn:visited {
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 15px 40px;
+          display: inline-block;
+          border-radius: 100px;
+          transition: all .2s;
+      }
+
+      .btn:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .btn:active {
+          transform: translateY(-1px);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .btn-white {
+          background-color: #fff;
+      }
+
+      .btn::after {
+          content: "";
+          display: inline-block;
+          height: 85%;
+          width: 85%;
+          border-radius: 100px;
+          position: absolute;
+          top: 0;
+          left: 15px;
+          z-index: -5;
+          transition: all .4s;
+      }
+
+      .btn-white::after {
+          background-color: #fff;
+      }
+
+      .btn:hover::after {
+          transform: scaleX(1.4) scaleY(1.6);
+          opacity: 0;
+      }
+
+      .btn-animated {
+          animation: moveInBottom 5s ease-out;
+          animation-fill-mode: backwards;
+      }
+
+      @keyframes moveInBottom {
+          0% {
+              opacity: 0;
+              transform: translateY(30px);
+          }
+
+          100% {
+              opacity: 1;
+              transform: translateY(0px);
+          }
       }
     }
   };
@@ -505,6 +597,7 @@ body {
     };
   };
   #footer {
-    display: none;
+    @include spec-font;
+    font-size: 1.2rem;
   }
 };

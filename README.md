@@ -15,7 +15,7 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 - [x] Update to a Formspree form for contact/order form :pencil:
 - [ ] Integrate some fancy/subtle animations such as progress bars :heavy_check_mark:
 - [ ] Host images on MongoDB to make GitHub repo public.
-- [ ] Turn plain HTML site into React site. 
+- [ ] Turn plain HTML site into a more Reacty site. 
 
 --- 
 

@@ -1,3 +1,6 @@
+/*
+  General use goodies! Package up some often used code.
+*/
 body {
   font-family: 'Signika Negative', Arial, monospace;
   color: #000000;
@@ -87,6 +90,10 @@ body a:hover {
   background: #ffffff;
 }
 
+#main-nav #logo-name {
+  display: none;
+}
+
 #main-content, .deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #twitch-stream-deal {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,8 +129,8 @@ body a:hover {
 }
 
 #hero-section .call-links a {
+  font-family: 'Nanum pen script', Arial, monospace;
   text-decoration: underline;
-  font-family: 'Nanum Pen Script';
   font-size: 1.5rem;
   padding: 0 1rem 0 1rem;
 }
@@ -404,7 +411,14 @@ body a:hover {
   z-index: 100;
 }
 
+/*
+ --------------    Now for some mediaqueries! ---------------
+*/
 @media screen and (min-width: 900px) {
+  #header {
+    background: #f6d3ac;
+    border: none;
+  }
   #header #bars {
     display: none;
   }
@@ -420,7 +434,8 @@ body a:hover {
     left: -16px;
     padding-top: 2rem;
     height: 65vh;
-    border: 0px solid black;
+    border-right: 2px solid #f6d3ac;
+    border-bottom: 2px solid #f6d3ac;
     border-radius: 0 0 15px 0;
   }
   #header #main-nav li {
@@ -443,6 +458,13 @@ body a:hover {
     width: 100px;
     height: 100px;
   }
+  #header #main-nav #logo-name {
+    font-family: 'Nanum pen script', Arial, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1px;
+  }
   #main-content h1, h2 {
     font-size: 3rem;
   }
@@ -455,12 +477,91 @@ body a:hover {
   #hero-section p {
     display: none;
   }
+  #hero-section .call-links {
+    padding-bottom: 25rem;
+  }
   #hero-section .call-links a {
     background: #ffffff;
     border-radius: 25px;
     text-decoration: none;
     padding: 1rem;
     margin-left: 3rem;
+  }
+  #hero-section .call-links .btn:link,
+  #hero-section .call-links .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+  }
+  #hero-section .call-links .btn:hover {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  #hero-section .call-links .btn:active {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  #hero-section .call-links .btn-white {
+    background-color: #fff;
+  }
+  #hero-section .call-links .btn::after {
+    content: "";
+    display: inline-block;
+    height: 85%;
+    width: 85%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: -5;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
+  #hero-section .call-links .btn-white::after {
+    background-color: #fff;
+  }
+  #hero-section .call-links .btn:hover::after {
+    -webkit-transform: scaleX(1.4) scaleY(1.6);
+            transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  #hero-section .call-links .btn-animated {
+    -webkit-animation: moveInBottom 5s ease-out;
+            animation: moveInBottom 5s ease-out;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+  }
+  @-webkit-keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
   }
   #portfolio-section {
     -webkit-box-orient: horizontal;
@@ -557,7 +658,8 @@ body a:hover {
     padding: 20px;
   }
   #footer {
-    display: none;
+    font-family: 'Nanum pen script', Arial, monospace;
+    font-size: 1.2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
