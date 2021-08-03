@@ -11,17 +11,20 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 
 **A simple roadmap of features to be added.**
 
-- [x] Site more-or-less complete! Just fancy stuff left to do.
-- [x] Update to a Formspree form for contact/order form :pencil:
-- [ ] Integrate some fancy/subtle animations such as progress bars :heavy_check_mark:
-- [ ] Host images on MongoDB to make GitHub repo public.
-- [ ] Turn plain HTML site into a more Reacty site. 
+- [x] Created basic HTML Commissions site.
+- [x]  Included a Formspree form for commissions/orders :pencil:
+- [x] Integrate some fancy/subtle animations :heavy_check_mark:
+- [ ] More animations!
+- [x] Refactor HTML site to EJS.
+- [ ] Host new site via Heroku
+
 
 --- 
 
 ### Attributions: 
 
 - [Devhints.io](https://devhints.io/sass) Has been of great help with remembering all the bits and pieces available with a bit of SCSS.
-- [Google](https://google.com) for all things
+- [Google](https://google.com) for all things.
 - [Alii](https://rawooo.carrd.co/) Another awesome Artist/Streamer! Creator of the cute little favicon and cursor image.
-- [Codecademy](https://codecademy.com) to learn React
+- [Codecademy](https://codecademy.com) to learn React.
+- [Tony Grimes](https://github.com/acidtone) Teacher of Web Development course at SAIT and great source for reference material!

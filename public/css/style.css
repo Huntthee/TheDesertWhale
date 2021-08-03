@@ -47,12 +47,24 @@ body a:hover {
 #header {
   position: -webkit-sticky;
   position: sticky;
+  height: 5rem;
+  background: #ffffff;
   top: 0;
+}
+
+#header #mobile-logo {
+  margin-left: 6.5rem;
+}
+
+#header #mobile-logo img {
+  width: 50px;
+  height: 50px;
+  margin-top: 1rem;
 }
 
 #bars {
   margin: .5rem;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: #a92d56;
   background: #ffffff;
   border-radius: 10px;
@@ -62,7 +74,7 @@ body a:hover {
 
 #main-nav {
   position: absolute;
-  margin: -1rem 0 0 1rem;
+  margin: -.5rem 0 0 1rem;
   list-style: none;
   display: none;
 }
@@ -74,16 +86,21 @@ body a:hover {
 #main-nav li {
   background: #ffffff;
   padding: 1rem;
-  border: 1px solid #fd766b;
+  border: 1px solid #e5234b;
   font-size: 1.2rem;
 }
 
-#main-nav li a {
-  padding: 1rem;
+#main-nav li:focus {
+  background: #f6d3ac;
+  color: #32c3a6;
 }
 
-#main-nav li:focus {
-  background: #ffffff;
+#main-nav #first-link {
+  border-radius: 0 15px 0 0;
+}
+
+#main-nav #last-link {
+  border-radius: 0 0 15px 15px;
 }
 
 #main-nav #logo-name {
@@ -117,7 +134,7 @@ body a:hover {
 
 #hero-section p {
   font-weight: bold;
-  margin-top: -2rem;
+  margin-top: -1rem;
 }
 
 #hero-section .call-links {
@@ -131,49 +148,42 @@ body a:hover {
   padding: 0 1rem 0 1rem;
 }
 
-#portfolio-section, #display {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  padding-left: 2rem;
+#portfolio-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#portfolio-section h1, #display h1 {
+#portfolio-section h1 {
   font-size: 2rem;
 }
 
-#portfolio-section .showcase-item, #display .showcase-item {
+#portfolio-section .showcase-item {
   text-align: center;
-  background: #ffffff;
-  -webkit-box-shadow: 10px 10px 2px #fd766b;
-          box-shadow: 10px 10px 2px #fd766b;
-  border-radius: 10px;
-  width: 90%;
-  margin: 1rem 0 1rem 0;
+  width: 75%;
 }
 
-#portfolio-section .showcase-item figure img, #display .showcase-item figure img {
+#portfolio-section .showcase-item figure img {
   width: 75%;
   height: auto;
   border: 2px solid #e5234b;
   margin: 1rem 0;
 }
 
-#portfolio-section .showcase-item figure figcaption, #display .showcase-item figure figcaption {
+#portfolio-section .showcase-item figure figcaption {
   padding: 1rem 0 1rem 0;
 }
 
-#past-gallery {
+#info-section {
   text-align: center;
+  width: 75%;
+  background: gray;
+  color: white;
 }
 
-#past-gallery img {
-  padding: 20px 10px 20px 10px;
-}
-
-.gallery-section img {
-  max-width: 100px;
-  height: auto;
+#info-section p {
+  max-width: 60ch;
+  padding: 10px;
 }
 
 .deals h2 {
@@ -181,13 +191,6 @@ body a:hover {
 }
 
 .package {
-  text-align: center;
-  background: #ffffff;
-  -webkit-box-shadow: 10px 10px 2px #fd766b;
-          box-shadow: 10px 10px 2px #fd766b;
-  border-radius: 10px;
-  width: 90%;
-  margin: 1rem 0 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -257,13 +260,6 @@ body a:hover {
 }
 
 #hire-section form {
-  text-align: center;
-  background: #ffffff;
-  -webkit-box-shadow: 10px 10px 2px #fd766b;
-          box-shadow: 10px 10px 2px #fd766b;
-  border-radius: 10px;
-  width: 90%;
-  margin: 1rem 0 1rem 0;
   padding: 1.5rem 0 1.5rem 0;
 }
 
@@ -296,16 +292,6 @@ body a:hover {
 
 #hire-section .twit-link:hover {
   background: #fd766b;
-}
-
-#about-section {
-  text-align: center;
-  background: #ffffff;
-  -webkit-box-shadow: 10px 10px 2px #fd766b;
-          box-shadow: 10px 10px 2px #fd766b;
-  border-radius: 10px;
-  width: 90%;
-  margin: 1rem 0 1rem 0;
 }
 
 #about-section h1 {
@@ -373,13 +359,6 @@ body a:hover {
 }
 
 #policy-page {
-  text-align: center;
-  background: #ffffff;
-  -webkit-box-shadow: 10px 10px 2px #fd766b;
-          box-shadow: 10px 10px 2px #fd766b;
-  border-radius: 10px;
-  width: 90%;
-  margin: 1rem 0 1rem 0;
   margin-top: 3rem;
 }
 
@@ -413,8 +392,10 @@ body a:hover {
 */
 @media screen and (min-width: 900px) {
   #header {
-    background: #f6d3ac;
-    border: none;
+    height: 0;
+  }
+  #header #mobile-logo {
+    display: none;
   }
   #header #bars {
     display: none;
@@ -429,8 +410,8 @@ body a:hover {
             flex-direction: column;
     background: #fd4e4d;
     left: -16px;
-    padding-top: 2rem;
     height: 65vh;
+    padding-top: 2rem;
     border-right: 2px solid #f6d3ac;
     border-bottom: 2px solid #f6d3ac;
     border-radius: 0 0 15px 0;
@@ -444,13 +425,12 @@ body a:hover {
   #header #main-nav li:hover {
     background: #ffffff;
   }
-  #header #main-nav a {
-    padding-top: 2rem;
+  #header #main-nav #center-image {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
   }
-  #header #main-nav a img {
+  #header #main-nav #center-image img {
     display: block;
     width: 100px;
     height: 100px;
@@ -478,6 +458,10 @@ body a:hover {
   }
   #hero-section .call-links {
     padding-bottom: 25rem;
+    /*
+          Some wonderful little button animations!
+          Found here @ https://dev.to/webdeasy/top-20-css-buttons-animations-f41 sitting at #8 by Raj Kamal
+      */
   }
   #hero-section .call-links a {
     background: #ffffff;
@@ -514,12 +498,12 @@ body a:hover {
   #hero-section .call-links .btn::after {
     content: "";
     display: inline-block;
-    height: 85%;
-    width: 85%;
+    height: 95%;
+    width: 95%;
     border-radius: 100px;
     position: absolute;
     top: 0;
-    left: 15px;
+    left: 0;
     z-index: -5;
     -webkit-transition: all .4s;
     transition: all .4s;
@@ -562,13 +546,8 @@ body a:hover {
               transform: translateY(0px);
     }
   }
-  #portfolio-section {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
   #portfolio-section .showcase-item {
+    width: 75%;
     margin: 40px;
   }
   #portfolio-section .showcase-item h3 {
@@ -576,42 +555,14 @@ body a:hover {
   }
   #portfolio-section .showcase-item figure img {
     width: 100%;
-  }
-  #display {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-direction: row;
-        flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    margin-right: 1rem;
-  }
-  #display .showcase-item {
-    width: 30%;
-  }
-  #display .showcase-item img {
-    width: 100%;
     height: auto;
   }
-  #past-gallery {
-    margin: 40px;
+  #portfolio-section .showcase-item hr {
+    width: 60%;
   }
-  #past-gallery .gallery-section img {
-    margin: 40px;
+  #info-section p {
+    max-width: 120ch;
+    margin-left: 12rem;
   }
   .deals {
     -webkit-box-align: baseline;

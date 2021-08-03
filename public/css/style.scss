@@ -35,16 +35,6 @@ $black: #000000;
   align-items: center;
 };
 
-@mixin card {
-  text-align: center;
-    background: $white;
-    box-shadow: 10px 10px 2px $salmon;
-    border-radius: 10px;
-    width: 90%;
-    margin: 1rem 0 1rem 0;
-};
-
-
 // Main styles for the body, headings and links!
 body {
   @include body-fonts;
@@ -81,13 +71,25 @@ body {
 // Simple header styles for mobile
 #header {
   position: sticky;
+
+  height: 5rem;
+  background: $white;
+
   top: 0;
+  #mobile-logo {
+    margin-left: 6.5rem;
+    img {
+      width: 50px;
+      height: 50px;
+      margin-top: 1rem;
+    }
+  }
 };
 
 // Get the fontawesome bars in the right spot and lookin good, enable pointer.
 #bars {
   margin: .5rem;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: $ampurp;
   background: $white;
   border-radius: 10px;
@@ -99,7 +101,7 @@ body {
 // Let's make sure the nav bar is displayed as a hamburger menu on mobile devices.
 #main-nav {
   position: absolute;
-  margin: -1rem 0 0 1rem;
+  margin: -.5rem 0 0 1rem;
   list-style: none;
   display: none;
   a {
@@ -110,15 +112,20 @@ body {
   li {
     background: $white;
     padding: 1rem;
-    border: 1px solid $salmon;
+    border: 1px solid $amaranth;
     font-size: 1.2rem;
-    a {
-      padding: 1rem;
-    }
     &:focus {
-      background: $white;
+      background: $lorange;
+      color: $highlight;
     }
   }
+  #first-link {
+    border-radius: 0 15px 0 0;
+  }
+  #last-link {
+    border-radius: 0 0 15px 15px;
+  }
+
   #logo-name {
     display: none;
   };
@@ -142,7 +149,7 @@ body {
   
   p {
     font-weight: bold;
-    margin-top: -2rem;
+    margin-top: -1rem;
   };
 
   // Call to action links
@@ -160,16 +167,15 @@ body {
 
 
 // Portfolio showcase page
-#portfolio-section, #display {
-  align-items: baseline;
-  padding-left: 2rem;
+#portfolio-section {
+  align-items: center;
   h1 {
     font-size: 2rem;
   };
 
   .showcase-item {
-    @include card;
-
+    text-align: center;
+    width: 75%;
     figure {
       img {
         width: 75%;
@@ -184,17 +190,18 @@ body {
   };
 };
 
-#past-gallery {
+#info-section {
   text-align: center;
-  img {
-    padding: 20px 10px 20px 10px;
-  };
-};
 
-.gallery-section img {
-  max-width: 100px;
-  height: auto;
-};
+  width: 75%;
+  
+  background: gray;
+  color: white;
+  p {
+    max-width: 60ch;
+    padding: 10px;
+  }
+}
 
 // Styles for the Commissions page
 .deals {
@@ -204,7 +211,6 @@ body {
 };
 
 .package {
-  @include card;
   @include flex;
   h3 {
     font-size: 1.5rem;
@@ -250,7 +256,6 @@ body {
 #hire-section {
   width: 95%;
   form {
-    @include card;
     padding: 1.5rem 0 1.5rem 0;
     label {
       float: left;
@@ -282,7 +287,6 @@ body {
 
 // Simple about section
 #about-section {
-  @include card;
   h1 {
     font-size: 3rem;
   };
@@ -344,7 +348,6 @@ body {
 
 // Policy page outlining working conditions, payment expectations and needed articles from the client.
 #policy-page {
-  @include card;
   margin-top: 3rem;
   .bold {
     font-weight: bold;
@@ -381,8 +384,10 @@ body {
 
 @media screen and (min-width: 900px) {
   #header {
-    background: $lorange;
-    border: none;
+    height: 0;
+    #mobile-logo {
+      display: none;
+    }
     // Hide the hamburger menu
     #bars {
     display: none;
@@ -393,8 +398,8 @@ body {
       flex-direction: column;
       background: $torange;
       left: -16px;
-      padding-top: 2rem;
       height: 65vh;
+      padding-top: 2rem;
       border-right: 2px solid $lorange;
       border-bottom: 2px solid $lorange;
       border-radius: 0 0 15px 0;
@@ -407,8 +412,7 @@ body {
           background: $white;
         }
       }
-      a {
-        padding-top: 2rem;
+      #center-image {
         align-self: center;
         img {
           display: block;
@@ -457,6 +461,11 @@ body {
         padding: 1rem;
         margin-left: 3rem;
       }
+
+      /*
+          Some wonderful little button animations!
+          Found here @ https://dev.to/webdeasy/top-20-css-buttons-animations-f41 sitting at #8 by Raj Kamal
+      */ 
       .btn:link,
       .btn:visited {
           text-transform: uppercase;
@@ -484,12 +493,12 @@ body {
       .btn::after {
           content: "";
           display: inline-block;
-          height: 85%;
-          width: 85%;
+          height: 95%;
+          width: 95%;
           border-radius: 100px;
           position: absolute;
           top: 0;
-          left: 15px;
+          left: 0;
           z-index: -5;
           transition: all .4s;
       }
@@ -519,44 +528,36 @@ body {
               transform: translateY(0px);
           }
       }
+
+      // ----- End button animations
     }
   };
 
+
+  // 
   #portfolio-section {
-    flex-direction: row;
-    
     .showcase-item {
+      width: 75%;
       h3 {
         font-size: 1.5rem;
       };
       margin: 40px;
       figure img {
         width: 100%;
+        height: auto;
+      }
+      hr {
+        width: 60%;
       }
     };
   };
 
-  #display {
-    @include flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: baseline;
-    margin-right: 1rem;
-    .showcase-item {
-      width: 30%;
-      img {
-        width: 100%;
-        height: auto;
-      };
-    };
-  };
-
-  #past-gallery {
-    margin: 40px;
-    .gallery-section img {
-      margin: 40px;
-    };
-  };
+  #info-section {
+    p {
+      max-width: 120ch;
+      margin-left: 12rem;
+    }
+  }
 
   .deals {
     align-items: baseline;

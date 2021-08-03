@@ -33,4 +33,3 @@ app.listen(port, err => {
     throw err
   console.log(`Server listening on ${port}`)
 });
-console.log('Server is listening');
