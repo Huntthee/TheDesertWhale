@@ -1,0 +1,604 @@
+// Some fancy colors to make things pop
+$lorange: #f6d3ac;
+$salmon: #fd766b;
+$torange: #fd4e4d;
+$amaranth: #e5234b;
+$ampurp: #a92d56;
+$highlight: #32c3a6;
+$white: #ffffff;
+$black: #000000;
+
+
+/*
+  General use goodies! Package up some often used code.
+*/  
+@mixin heading-fonts {
+  font-family: 'Signika', Helvetica, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $amaranth;
+};
+
+@mixin body-fonts {
+  font-family: 'Signika Negative', Arial, monospace;
+  color: $black;
+};
+
+@mixin spec-font {
+  font-family: 'Nanum pen script', Arial, monospace;
+}
+
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+};
+
+@mixin card {
+  text-align: center;
+    background: $white;
+    box-shadow: 10px 10px 2px $salmon;
+    border-radius: 10px;
+    width: 90%;
+    margin: 1rem 0 1rem 0;
+};
+
+
+// Main styles for the body, headings and links!
+body {
+  @include body-fonts;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: $white;
+  margin: 0;
+
+  h1, h2 {
+    @include heading-fonts;
+    width: 100%;
+    background: $white;
+    text-align: center;
+    text-shadow: 1px 1px $black;
+  };
+
+  a {
+    font-family: 'Signika', Helvetica, monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: $amaranth;
+    &:hover {
+      color: $highlight;
+      cursor: url('../images/cursor-whale.png'), auto;
+    };
+  };
+};
+
+
+// Simple header styles for mobile
+#header {
+  position: sticky;
+  top: 0;
+};
+
+// Get the fontawesome bars in the right spot and lookin good, enable pointer.
+#bars {
+  margin: .5rem;
+  font-size: 1.8rem;
+  color: $ampurp;
+  background: $white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+// Let's make sure the nav bar is displayed as a hamburger menu on mobile devices.
+#main-nav {
+  position: absolute;
+  margin: -1rem 0 0 1rem;
+  list-style: none;
+  display: none;
+  a {
+    img {
+      display: none;
+    }
+  }
+  li {
+    background: $white;
+    padding: 1rem;
+    border: 1px solid $salmon;
+    font-size: 1.2rem;
+    a {
+      padding: 1rem;
+    }
+    &:focus {
+      background: $white;
+    }
+  }
+  #logo-name {
+    display: none;
+  };
+}
+
+
+// Flex, everywhere!
+#main-content, .deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #twitch-stream-deal {
+  @include flex;
+  width: 100%;
+};
+
+
+// Home page styles
+#hero-section {
+  height: 87vh;
+
+  h1 {
+    font-size: 3rem;
+  };
+  
+  p {
+    font-weight: bold;
+    margin-top: -2rem;
+  };
+
+  // Call to action links
+  .call-links {
+    margin-top: 4rem;
+    a {
+      @include spec-font;
+      text-decoration: underline;
+      font-size: 1.5rem;
+      padding: 0 1rem 0 1rem;
+    };
+  };
+  
+};
+
+
+// Portfolio showcase page
+#portfolio-section, #display {
+  align-items: baseline;
+  padding-left: 2rem;
+  h1 {
+    font-size: 2rem;
+  };
+
+  .showcase-item {
+    @include card;
+
+    figure {
+      img {
+        width: 75%;
+        height: auto;
+        border: 2px solid $amaranth;
+        margin: 1rem 0;
+      };
+      figcaption {
+        padding: 1rem 0 1rem 0;
+      };
+    };
+  };
+};
+
+#past-gallery {
+  text-align: center;
+  img {
+    padding: 20px 10px 20px 10px;
+  };
+};
+
+.gallery-section img {
+  max-width: 100px;
+  height: auto;
+};
+
+// Styles for the Commissions page
+.deals {
+  h2 {
+    font-size: 2rem;
+  };
+};
+
+.package {
+  @include card;
+  @include flex;
+  h3 {
+    font-size: 1.5rem;
+  };
+  .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+  };
+  .descr {
+    padding: 0 10px 0 10px;
+  };
+  div {
+    margin: 20px 0 20px 0;
+    img {
+      padding: 0 5px 0 5px;
+      max-width: 87%;
+      height: auto;
+    }
+  };
+  .array {
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+  };
+  a {
+    display: block;
+    margin: 1rem;
+    background: $lorange;
+    width: 75%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    color: $amaranth;
+    &:hover {
+      background: $torange;
+      color: white;
+    }
+  };
+};
+
+
+// Make the form look better
+#hire-section {
+  width: 95%;
+  form {
+    @include card;
+    padding: 1.5rem 0 1.5rem 0;
+    label {
+      float: left;
+      margin-left: 15px;
+    };
+    input {
+      width: 85%;
+      line-height: 1.5rem;
+      padding: .2rem;
+      margin: .5rem;
+    };
+    div {
+      display: flex;
+      margin: 0 .8rem 0 .8rem;
+    };
+  };
+  .twit-link {
+    background: $torange;
+    color: $white;
+    padding: 1rem;
+    border: 2px solid $white;
+    border-radius: 20px;
+    &:hover {
+      background: $salmon;
+    }
+  }
+};
+
+
+// Simple about section
+#about-section {
+  @include card;
+  h1 {
+    font-size: 3rem;
+  };
+  h2 {
+    margin-top: -2rem;
+  };
+  #profile-pic {
+    border: 2px solid $salmon;
+    border-radius: 50%;
+    width: 75%;
+  };
+  .intro {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: -1.5rem;
+  };
+  .about {
+    min-width: 75%;
+  };
+  #skill-list {
+    text-align: left;
+    margin: 0 20px;
+  };
+  p {
+    padding: 10px 20px;
+  };
+  #donation-link {
+    background: $amaranth;
+    color: $lorange;
+
+    border: 2px solid $salmon;
+    border-radius: 30px;
+
+    margin: 15px;
+    padding: 20px;
+    width: 50%;
+
+    &:hover {
+      background: $highlight;
+      color: $white;
+    };
+  };
+  #progress-bar {
+    background: $lorange;
+    border: 2px solid $amaranth;
+    border-radius: 10px;
+    width: 75%;
+    height: 2rem;
+    margin: 2rem 0;
+    #progress {
+    border-radius: 7px;
+    width: 15%;
+    height: 2rem;
+    background: $amaranth;
+    };
+  };
+};
+
+
+// Policy page outlining working conditions, payment expectations and needed articles from the client.
+#policy-page {
+  @include card;
+  margin-top: 3rem;
+  .bold {
+    font-weight: bold;
+  }
+  ul {
+    padding: 0 10% 0 10%;
+    li {
+    font-size: 1.4rem;
+    text-align: left;
+    }
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-left: 10%;
+    max-width: 80%;
+  }
+}
+
+
+// And finally the footer
+#footer {
+  height: 1rem;
+  padding-left: 20px;
+  z-index: 100;
+};
+
+
+
+/*
+ --------------    Now for some mediaqueries! ---------------
+*/
+
+
+@media screen and (min-width: 900px) {
+  #header {
+    background: $lorange;
+    border: none;
+    // Hide the hamburger menu
+    #bars {
+    display: none;
+    }
+    // Display the navigation as a nice sidebar
+    #main-nav {
+      display: flex;
+      flex-direction: column;
+      background: $torange;
+      left: -16px;
+      padding-top: 2rem;
+      height: 65vh;
+      border-right: 2px solid $lorange;
+      border-bottom: 2px solid $lorange;
+      border-radius: 0 0 15px 0;
+      li {
+        background: $lorange;
+        margin: 1rem 1.5rem 0 1.5rem;
+        padding: .5rem;
+        border-radius: 25px;
+        &:hover {
+          background: $white;
+        }
+      }
+      a {
+        padding-top: 2rem;
+        align-self: center;
+        img {
+          display: block;
+          width: 100px;
+          height: 100px; 
+        }
+        
+      }
+      #logo-name {
+        @include spec-font;
+        display: block;
+
+        font-size: 1.5rem;
+        text-align: center;
+
+        color: $white;
+        
+        margin-top: 1px;
+      }
+    }
+  }
+  
+
+  #main-content h1, h2 {
+    font-size: 3rem;
+  };
+
+  .hero-image {
+    background: url('../images/tdw-2.jpg');
+    margin-top: 3rem;
+  }
+
+  #hero-section {
+    h1 {
+      display: none;
+    }
+    p {
+      display: none;
+    };
+    .call-links {
+      padding-bottom: 25rem;
+      a {
+        background: $white;
+        border-radius: 25px;
+        text-decoration: none;
+        padding: 1rem;
+        margin-left: 3rem;
+      }
+      .btn:link,
+      .btn:visited {
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 15px 40px;
+          display: inline-block;
+          border-radius: 100px;
+          transition: all .2s;
+      }
+
+      .btn:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .btn:active {
+          transform: translateY(-1px);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .btn-white {
+          background-color: #fff;
+      }
+
+      .btn::after {
+          content: "";
+          display: inline-block;
+          height: 85%;
+          width: 85%;
+          border-radius: 100px;
+          position: absolute;
+          top: 0;
+          left: 15px;
+          z-index: -5;
+          transition: all .4s;
+      }
+
+      .btn-white::after {
+          background-color: #fff;
+      }
+
+      .btn:hover::after {
+          transform: scaleX(1.4) scaleY(1.6);
+          opacity: 0;
+      }
+
+      .btn-animated {
+          animation: moveInBottom 5s ease-out;
+          animation-fill-mode: backwards;
+      }
+
+      @keyframes moveInBottom {
+          0% {
+              opacity: 0;
+              transform: translateY(30px);
+          }
+
+          100% {
+              opacity: 1;
+              transform: translateY(0px);
+          }
+      }
+    }
+  };
+
+  #portfolio-section {
+    flex-direction: row;
+    
+    .showcase-item {
+      h3 {
+        font-size: 1.5rem;
+      };
+      margin: 40px;
+      figure img {
+        width: 100%;
+      }
+    };
+  };
+
+  #display {
+    @include flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-right: 1rem;
+    .showcase-item {
+      width: 30%;
+      img {
+        width: 100%;
+        height: auto;
+      };
+    };
+  };
+
+  #past-gallery {
+    margin: 40px;
+    .gallery-section img {
+      margin: 40px;
+    };
+  };
+
+  .deals {
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .package {
+      width: 30%;
+      margin: 20px;
+    };
+  };
+
+  #hire-section {
+    width: 45%;
+    #contact-text {
+      font-size: 1.5rem;
+      margin-top: -1rem;
+    };
+    textarea {
+      width: 85%;
+    };
+  };
+
+  #about-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    h1 {
+      font-size: 4rem;
+    };
+    h2 {
+      font-size: 1.5rem;
+    };
+    #profile-pic {
+      width: 50%;
+    };
+    p {
+      max-width: 60ch;
+      padding: 20px;
+    };
+  };
+  #footer {
+    @include spec-font;
+    font-size: 1.2rem;
+  }
+};
