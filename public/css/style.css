@@ -298,8 +298,10 @@ body a:hover {
   margin-top: 3rem;
 }
 
-#policy-page .bold {
+#policy-page h3 {
+  padding: 5% 5% 0 5%;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 #policy-page ul {
@@ -309,12 +311,6 @@ body a:hover {
 #policy-page ul li {
   font-size: 1.4rem;
   text-align: left;
-}
-
-#policy-page p {
-  font-size: 1.5rem;
-  margin-left: 10%;
-  max-width: 80%;
 }
 
 #footer {
@@ -542,6 +538,9 @@ body a:hover {
   #about-section p {
     max-width: 60ch;
     padding: 20px;
+  }
+  #policy-page {
+    max-width: 160ch;
   }
   #footer {
     font-family: 'Nanum pen script', Arial, monospace;
