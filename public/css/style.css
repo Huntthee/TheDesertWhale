@@ -186,77 +186,9 @@ body a:hover {
   padding: 10px;
 }
 
-.deals h2 {
-  font-size: 2rem;
-}
-
-.package {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.package h3 {
-  font-size: 1.5rem;
-}
-
-.package .price {
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-
-.package .descr {
-  padding: 0 10px 0 10px;
-}
-
-.package div {
-  margin: 20px 0 20px 0;
-}
-
-.package div img {
-  padding: 0 5px 0 5px;
-  max-width: 87%;
-  height: auto;
-}
-
-.package .array {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 30%;
-}
-
-.package a {
-  display: block;
-  margin: 1rem;
-  background: #f6d3ac;
-  width: 75%;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  border-radius: 20px;
-  color: #e5234b;
-}
-
-.package a:hover {
-  background: #fd4e4d;
-  color: white;
-}
-
 #hire-section {
   width: 95%;
+  text-align: center;
 }
 
 #hire-section form {
@@ -279,7 +211,11 @@ body a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 .8rem 0 .8rem;
+  margin: 0 .8rem 0 0;
+}
+
+#hire-section #comments {
+  margin-left: .5rem;
 }
 
 #hire-section .twit-link {

@@ -203,58 +203,10 @@ body {
   }
 }
 
-// Styles for the Commissions page
-.deals {
-  h2 {
-    font-size: 2rem;
-  };
-};
-
-.package {
-  @include flex;
-  h3 {
-    font-size: 1.5rem;
-  };
-  .price {
-    font-weight: bold;
-    font-size: 1.2rem;
-  };
-  .descr {
-    padding: 0 10px 0 10px;
-  };
-  div {
-    margin: 20px 0 20px 0;
-    img {
-      padding: 0 5px 0 5px;
-      max-width: 87%;
-      height: auto;
-    }
-  };
-  .array {
-    display: flex;
-    justify-content: center;
-    max-width: 30%;
-  };
-  a {
-    display: block;
-    margin: 1rem;
-    background: $lorange;
-    width: 75%;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    border-radius: 20px;
-    color: $amaranth;
-    &:hover {
-      background: $torange;
-      color: white;
-    }
-  };
-};
-
-
 // Make the form look better
 #hire-section {
   width: 95%;
+  text-align: center;
   form {
     padding: 1.5rem 0 1.5rem 0;
     label {
@@ -269,9 +221,12 @@ body {
     };
     div {
       display: flex;
-      margin: 0 .8rem 0 .8rem;
+      margin: 0 .8rem 0 0;
     };
   };
+  #comments {
+    margin-left: .5rem;
+  }
   .twit-link {
     background: $torange;
     color: $white;
