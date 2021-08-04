@@ -7,6 +7,7 @@ $ampurp: #a92d56;
 $highlight: #32c3a6;
 $white: #ffffff;
 $black: #000000;
+$shade: #d6d4ce;
 
 
 /*
@@ -68,7 +69,21 @@ body {
 };
 
 
-// Simple header styles for mobile
+
+// Flex, everywhere!
+#main-content, .deals, #hero-section, #portfolio-gallery, #commission-section, #display, #hire-section, #about-section, #twitch-stream-deal {
+  @include flex;
+  width: 100%;
+};
+
+
+
+/*
+     ------------------------------------- Mobile First Styles
+*/
+
+
+// Header Styles
 #header {
   position: sticky;
 
@@ -96,7 +111,6 @@ body {
   border: none;
   cursor: pointer;
 }
-
 
 // Let's make sure the nav bar is displayed as a hamburger menu on mobile devices.
 #main-nav {
@@ -132,14 +146,8 @@ body {
 }
 
 
-// Flex, everywhere!
-#main-content, .deals, #hero-section, #portfolio-section, #display, #hire-section, #about-section, #twitch-stream-deal {
-  @include flex;
-  width: 100%;
-};
 
-
-// Home page styles
+//  ---------------------------------------- Home page styles
 #hero-section {
   height: 87vh;
 
@@ -166,30 +174,60 @@ body {
 };
 
 
-// Portfolio showcase page
-#portfolio-section {
+
+// -------------------------------------- Portfolio Gallery Page
+#portfolio-gallery {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .gallery-image {
+    background: $shade;
+    width: 90%;
+    border-radius: 15px;
+    margin: 1rem 1rem 0 1rem;
+    img {
+      width: 85%;
+      padding: 15px;
+    };
+    h3 {
+      @include spec-font;
+      font-size: 1.3rem;
+      margin-bottom: -1rem;
+      padding-top: 10px;
+    };
+  };
+};
+
+
+
+// ------------------------------- Commission Showcase Page
+#commission-section {
   align-items: center;
   h1 {
     font-size: 2rem;
   };
 
-  .showcase-item {
-    text-align: center;
-    width: 75%;
-    figure {
-      img {
-        width: 75%;
-        height: auto;
-        border: 2px solid $amaranth;
-        margin: 1rem 0;
-      };
-      figcaption {
-        padding: 1rem 0 1rem 0;
-      };
+  
+};
+
+// Individual sections for available work
+.showcase-item {
+  text-align: center;
+  width: 75%;
+  figure {
+    img {
+      width: 75%;
+      height: auto;
+      border: 2px solid $amaranth;
+      margin: 1rem 0;
+    };
+    figcaption {
+       padding: 1rem 0 1rem 0;
     };
   };
 };
 
+// Short informative section
 #info-section {
   text-align: center;
 
@@ -228,22 +266,24 @@ body {
     margin-left: .5rem;
   }
   .twit-link {
-    background: $torange;
-    color: $white;
+    background: $lorange;
+    color: $amaranth;
     padding: 1rem;
-    border: 2px solid $white;
+    border: 2px solid $amaranth;
     border-radius: 20px;
     &:hover {
-      background: $salmon;
+      background: $white;
+      color: $highlight;
     }
   }
 };
 
 
-// Simple about section
+
+// --------------------------------------   About Page
 #about-section {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   };
   h2 {
     margin-top: -2rem;
@@ -257,6 +297,7 @@ body {
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: -1.5rem;
+    text-align: center;
   };
   .about {
     min-width: 75%;
@@ -268,22 +309,27 @@ body {
   p {
     padding: 10px 20px;
   };
-  #donation-link {
-    background: $amaranth;
-    color: $lorange;
 
-    border: 2px solid $salmon;
+  // Styles for the donation button
+  #donation-link {
+    background: $lorange;
+    color: $amaranth;
+
+    border: 2px solid $amaranth;
     border-radius: 30px;
 
-    margin: 15px;
     padding: 20px;
     width: 50%;
 
+    text-align: center;
+
     &:hover {
-      background: $highlight;
-      color: $white;
+      background: $white;
+      color: $highlight;
     };
   };
+
+  // A basic, non-interactive (yet) progress bar for tracking monthly income vs target.
   #progress-bar {
     background: $lorange;
     border: 2px solid $amaranth;
@@ -299,6 +345,7 @@ body {
     };
   };
 };
+
 
 
 // Policy page outlining working conditions, payment expectations and needed articles from the client.
@@ -318,9 +365,9 @@ body {
   }
 }
 
-
 // And finally the footer
 #footer {
+  @include spec-font;
   height: 1rem;
   padding-left: 20px;
   z-index: 100;
@@ -329,27 +376,31 @@ body {
 
 
 /*
- --------------    Now for some mediaqueries! ---------------
+ --------------    Now for some mediaqueries! (Desktop Styles) ---------------
 */
 
 
 @media screen and (min-width: 900px) {
+
+  // Header Styles
   #header {
     height: 0;
     #mobile-logo {
       display: none;
     }
+
     // Hide the hamburger menu
     #bars {
     display: none;
     }
+
     // Display the navigation as a nice sidebar
     #main-nav {
       display: flex;
       flex-direction: column;
       background: $torange;
       left: -16px;
-      height: 65vh;
+      height: 500px;
       padding-top: 2rem;
       border-right: 2px solid $lorange;
       border-bottom: 2px solid $lorange;
@@ -363,6 +414,8 @@ body {
           background: $white;
         }
       }
+
+      // Logo Image
       #center-image {
         align-self: center;
         img {
@@ -387,15 +440,19 @@ body {
   }
   
 
+
+  // ----------------------------------- Main Page
   #main-content h1, h2 {
     font-size: 3rem;
   };
 
+  // Background Image
   .hero-image {
     background: url('../images/tdw-2.jpg');
     margin-top: 3rem;
   }
 
+  // Page Styles
   #hero-section {
     h1 {
       display: none;
@@ -403,6 +460,8 @@ body {
     p {
       display: none;
     };
+
+    // Styles for Call to Action buttons
     .call-links {
       padding-bottom: 25rem;
       a {
@@ -485,8 +544,29 @@ body {
   };
 
 
-  // 
-  #portfolio-section {
+
+  // --------------------------------------- Portfolio Page
+  #portfolio-gallery {
+    display: inline-block;
+    width: 75%;
+    #image-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+    }
+    .gallery-image {
+      width: 30%;
+      h3 {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+
+
+  // --------------------------------------- Commission Page 
+  #commission-section {
     .showcase-item {
       width: 75%;
       h3 {
@@ -503,6 +583,7 @@ body {
     };
   };
 
+  // Update styles for info section
   #info-section {
     p {
       max-width: 120ch;
@@ -510,16 +591,9 @@ body {
     }
   }
 
-  .deals {
-    align-items: baseline;
-    flex-direction: row;
-    flex-wrap: wrap;
-    .package {
-      width: 30%;
-      margin: 20px;
-    };
-  };
 
+
+  //  -----------------------------------  Contact Form 
   #hire-section {
     width: 45%;
     #contact-text {
@@ -531,18 +605,23 @@ body {
     };
   };
 
+
+
+  // -----------------------------------  About Page
   #about-section {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    width: 50%;
+    width: 150ch;
     h1 {
       font-size: 4rem;
     };
     h2 {
       font-size: 1.5rem;
     };
+
+    // Update Styles for Image
     #profile-pic {
-      width: 50%;
+      width: 25%;
     };
     p {
       max-width: 60ch;
@@ -550,10 +629,14 @@ body {
     };
   };
 
+
+
+  // -------------------------------------- Policy Page
   #policy-page {
     max-width: 160ch;
   }
 
+  // And once again, the footer.
   #footer {
     @include spec-font;
     font-size: 1.2rem;
