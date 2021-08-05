@@ -26,11 +26,6 @@ const gallery = [
     "desc": "Sub Badges and Illustrated Scene for Rorlann"
   },
   {
-    "alt": "Screenshot from Raft game with text overlay for stream advertisement.",
-    "src": '"images/Raft-with-Friends-advert.jpg"',
-    "desc": "Personal Stream Adertisement for Raft"
-  },
-  {
     "alt": "Complete floral scene setup for Niladien's Twitch channel",
     "src": '"images/Twitch-set-for-Niladien.jpg"',
     "desc": "Twitch Scenes and Panels for Niladien"
@@ -114,11 +109,6 @@ const gallery = [
     "alt": "Package of Stream Overlays for Mr Brightside on Twitch",
     "src": '"images/Mr-Brightside-Overlays-set.jpg"',
     "desc": "Overlays for Mr Brightside"
-  },
-  {
-    "alt": "Character Portrait for Jeremy Hay",
-    "src": '"images/Jeremy-Hay-Character-Art.jpg"',
-    "desc": "Multiple Character Portrait for Jeremy Hay"
   },
   {
     "alt": "Set of 4 Emotes for Jayber on Twitch",
