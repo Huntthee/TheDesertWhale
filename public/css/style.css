@@ -128,11 +128,12 @@ body a:hover {
 }
 
 #hero-section {
-  height: 87vh;
+  height: 100vh;
 }
 
 #hero-section h1 {
   font-size: 3rem;
+  margin-top: -7rem;
 }
 
 #hero-section p {
@@ -149,6 +150,37 @@ body a:hover {
   text-decoration: underline;
   font-size: 1.5rem;
   padding: 0 1rem 0 1rem;
+}
+
+#hero-section #social-links {
+  margin-top: 8rem;
+  font-size: 2rem;
+}
+
+#hero-section #social-links a {
+  padding: 1.2rem;
+  margin: .5rem;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+#status-container-1, #status-container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#status-container-1 .status, #status-container-2 .status {
+  padding-left: 5px;
+  color: #32c3a6;
+}
+
+#status-container-2 {
+  display: none;
 }
 
 #portfolio-gallery {
@@ -434,18 +466,53 @@ body a:hover {
   #main-content h1, h2 {
     font-size: 3rem;
   }
-  .hero-image {
-    background: url("../images/tdw-2.jpg");
-    margin-top: 3rem;
+  @-webkit-keyframes bgcolor {
+    0% {
+      background-color: #f6d3ac;
+    }
+    25% {
+      background-color: #a92d56;
+    }
+    50% {
+      background-color: #32c3a6;
+    }
+    75% {
+      background-color: #ff5940;
+    }
+    100% {
+      background-color: #5e6fd1;
+    }
+  }
+  @keyframes bgcolor {
+    0% {
+      background-color: #f6d3ac;
+    }
+    25% {
+      background-color: #a92d56;
+    }
+    50% {
+      background-color: #32c3a6;
+    }
+    75% {
+      background-color: #ff5940;
+    }
+    100% {
+      background-color: #5e6fd1;
+    }
+  }
+  #hero-section {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
   }
   #hero-section h1 {
-    display: none;
-  }
-  #hero-section p {
-    display: none;
+    margin-top: -3rem;
+    font-size: 5rem;
   }
   #hero-section .call-links {
     padding-bottom: 25rem;
+    margin-left: -4rem;
     /*
           Some wonderful little button animations!
           Found here @ https://dev.to/webdeasy/top-20-css-buttons-animations-f41 sitting at #8 by Raj Kamal
@@ -533,6 +600,29 @@ body a:hover {
       -webkit-transform: translateY(0px);
               transform: translateY(0px);
     }
+  }
+  #hero-section #social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 125px;
+    right: 25px;
+  }
+  #status-container-1 {
+    display: none;
+  }
+  #status-container-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: -2rem;
   }
   #portfolio-gallery {
     display: inline-block;

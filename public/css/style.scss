@@ -149,10 +149,11 @@ body {
 
 //  ---------------------------------------- Home page styles
 #hero-section {
-  height: 87vh;
+  height: 100vh;
 
   h1 {
     font-size: 3rem;
+    margin-top: -7rem;
   };
   
   p {
@@ -171,7 +172,31 @@ body {
     };
   };
   
+  #social-links {
+    margin-top: 8rem;
+    font-size: 2rem;
+    a {
+      padding: 1.2rem;
+      margin: .5rem;
+      background: $white;
+      border-radius: 50%;
+    }
+  };
 };
+
+// Keep track of commission status
+#status-container-1, #status-container-2 {
+  display: flex;
+  flex-direction: row;
+  .status {
+    padding-left: 5px;
+    color: $highlight;
+  }
+}
+
+#status-container-2 {
+  display: none;
+}
 
 
 
@@ -463,24 +488,43 @@ body {
     font-size: 3rem;
   };
 
-  // Background Image
-  .hero-image {
-    background: url('../images/tdw-2.jpg');
-    margin-top: 3rem;
+  // Changing colors background style
+  @keyframes bgcolor {
+    0% {
+        background-color: $lorange;
+    }
+
+    25% {
+        background-color: $ampurp;
+    }
+
+    50% {
+        background-color: $highlight
+    }
+
+    75% {
+        background-color: #ff5940
+    }
+
+    100% {
+        background-color: #5e6fd1;
+    }
   }
 
   // Page Styles
   #hero-section {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
     h1 {
-      display: none;
+      margin-top: -3rem;
+      font-size: 5rem;
     }
-    p {
-      display: none;
-    };
-
     // Styles for Call to Action buttons
     .call-links {
       padding-bottom: 25rem;
+      margin-left: -4rem;
       a {
         background: $white;
         border-radius: 25px;
@@ -555,11 +599,27 @@ body {
               transform: translateY(0px);
           }
       }
-
       // ----- End button animations
     }
+    #social-links {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 125px;
+        right: 25px;
+      }
   };
 
+  #status-container-1 {
+    display: none;
+  }
+
+  #status-container-2 {
+    display: flex;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: -2rem;
+  }
 
 
   // --------------------------------------- Portfolio Page
