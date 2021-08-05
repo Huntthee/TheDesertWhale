@@ -206,25 +206,42 @@ body {
   h1 {
     font-size: 2rem;
   };
-
-  
 };
 
 // Individual sections for available work
 .showcase-item {
   text-align: center;
-  width: 75%;
+  width: 95%;
   figure {
+    h3 {
+      text-align: center;
+    };
     img {
-      width: 75%;
+      width: 100%;
       height: auto;
       border: 2px solid $amaranth;
-      margin: 1rem 0;
+      margin-bottom: 1rem;
     };
     figcaption {
        padding: 1rem 0 1rem 0;
     };
   };
+  a {
+    background: $lorange;
+
+    padding: 5px;
+
+    border: 2px solid $amaranth;
+    border-radius: 15px;
+    &:hover {
+      background: $white;
+      color: $highlight;
+    }
+  }
+  
+  hr {
+    margin-top: 2rem;
+  }
 };
 
 // Short informative section
@@ -569,18 +586,33 @@ body {
   #commission-section {
     .showcase-item {
       width: 75%;
+      margin: 40px;
       h3 {
         font-size: 1.5rem;
       };
-      margin: 40px;
-      figure img {
-        width: 100%;
-        height: auto;
-      }
+      a {
+        padding: 15px;
+        border-radius: 25px;
+      };
+      figure {
+        display: flex;
+        img {
+          margin: 0 1rem 1.5rem 1rem;
+          width: 100%;
+          height: auto;
+        }
+        li {
+          text-align: left;
+          margin-bottom: 1rem;
+        }  
+      } 
       hr {
         width: 60%;
       }
     };
+    .smaller {
+      width: 55%;
+    }
   };
 
   // Update styles for info section

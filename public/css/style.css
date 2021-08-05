@@ -193,18 +193,38 @@ body a:hover {
 
 .showcase-item {
   text-align: center;
-  width: 75%;
+  width: 95%;
+}
+
+.showcase-item figure h3 {
+  text-align: center;
 }
 
 .showcase-item figure img {
-  width: 75%;
+  width: 100%;
   height: auto;
   border: 2px solid #e5234b;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .showcase-item figure figcaption {
   padding: 1rem 0 1rem 0;
+}
+
+.showcase-item a {
+  background: #f6d3ac;
+  padding: 5px;
+  border: 2px solid #e5234b;
+  border-radius: 15px;
+}
+
+.showcase-item a:hover {
+  background: #ffffff;
+  color: #32c3a6;
+}
+
+.showcase-item hr {
+  margin-top: 2rem;
 }
 
 #info-section {
@@ -542,12 +562,29 @@ body a:hover {
   #commission-section .showcase-item h3 {
     font-size: 1.5rem;
   }
+  #commission-section .showcase-item a {
+    padding: 15px;
+    border-radius: 25px;
+  }
+  #commission-section .showcase-item figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   #commission-section .showcase-item figure img {
+    margin: 0 1rem 1.5rem 1rem;
     width: 100%;
     height: auto;
   }
+  #commission-section .showcase-item figure li {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
   #commission-section .showcase-item hr {
     width: 60%;
+  }
+  #commission-section .smaller {
+    width: 55%;
   }
   #info-section p {
     max-width: 120ch;
