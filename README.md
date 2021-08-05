@@ -9,14 +9,15 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 
 ## Things To Come!
 
-**A simple roadmap of features to be added.**
+**A simple roadmap of features added & to be added.**
 
 - [x] Created basic HTML Commissions site.
 - [x]  Included a Formspree form for commissions/orders :pencil:
 - [x] Integrate some fancy/subtle animations :heavy_check_mark:
-- [ ] More animations!
-- [x] Refactor HTML site to EJS.
-- [ ] Host new site via Heroku
+- [ ] More animations! :dancer:
+- [x] Refactor HTML site to EJS. :computer:
+- [x] Host new site via Heroku :muscle:
+- [x] Custom Domain Name! :whale:
 
 
 --- 
