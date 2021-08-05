@@ -277,9 +277,15 @@ body {
   
   background: gray;
   color: white;
+  h3 {
+    padding: 0 10px 0 10px;
+  }
   p {
     max-width: 60ch;
     padding: 10px;
+  }
+  ul li {
+    text-align: left;
   }
 }
 
@@ -680,6 +686,9 @@ body {
     p {
       max-width: 120ch;
       margin-left: 12rem;
+    }
+    ul li {
+      margin: 0 25%;
     }
   }
 

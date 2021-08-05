@@ -266,9 +266,17 @@ body a:hover {
   color: white;
 }
 
+#info-section h3 {
+  padding: 0 10px 0 10px;
+}
+
 #info-section p {
   max-width: 60ch;
   padding: 10px;
+}
+
+#info-section ul li {
+  text-align: left;
 }
 
 #hire-section {
@@ -679,6 +687,9 @@ body a:hover {
   #info-section p {
     max-width: 120ch;
     margin-left: 12rem;
+  }
+  #info-section ul li {
+    margin: 0 25%;
   }
   #hire-section {
     width: 45%;

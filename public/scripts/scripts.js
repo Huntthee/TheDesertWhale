@@ -8,7 +8,7 @@ const gallery = [
   {
     "alt": "A snappy advertisement for Kestrel Quests DnD sessions",
     "src": '"images/DND-TIME-Advert.jpg"',
-    "desc": "Advertisement for Kestrel Quests DnD sessions"
+    "desc": "Advertisement for Kestrel Quests DnD"
   },
   {
     "alt": "Personalized Emotes for JobberJosh",
