@@ -47,7 +47,7 @@ const gallery = [
   },
   {
     "alt": "Set of four emotes for YoloSoloFolo on Twitch",
-    "src": '"images/YoloSoloFolo-Emotes.jpg"',
+    "src": '"images/YoloSolofolo-Emotes.jpg"',
     "desc": "Emotes for YoloSoloFolo"
   },
   {
@@ -102,7 +102,7 @@ const gallery = [
   },
   {
     "alt": "Set of 4 Emotes for JoelTheShortOne on Twitch",
-    "src": '"images/JoelTheShortOne-Emotes.jpg"',
+    "src": '"images/Joeltheshortone-Emotes.jpg"',
     "desc": "Emotes for JoelTheShortOne"
   },
   {
@@ -122,7 +122,7 @@ const gallery = [
   },
   {
     "alt": "Set of 4 Emotes for Jayber on Twitch",
-    "src": '"images/Jayber-Emotes.jpg"',
+    "src": '"images/Jayber-emotes.jpg"',
     "desc": "Emotes for Jayber"
   },
   {
