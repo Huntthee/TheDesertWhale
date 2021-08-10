@@ -415,6 +415,15 @@ body a:hover {
   z-index: 100;
 }
 
+.oops {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
 /*
  --------------    Now for some mediaqueries! (Desktop Styles) ---------------
 */
@@ -725,6 +734,12 @@ body a:hover {
   #footer {
     font-family: 'Nanum pen script', Arial, monospace;
     font-size: 1.2rem;
+  }
+  .oops {
+    display: none;
+  }
+  .hide {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */

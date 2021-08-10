@@ -421,7 +421,14 @@ body {
   z-index: 100;
 };
 
+.oops {
+  font-size: 3rem;
+  text-align: center;
+}
 
+.hide {
+  display: none;
+}
 
 /*
  --------------    Now for some mediaqueries! (Desktop Styles) ---------------
@@ -741,5 +748,13 @@ body {
   #footer {
     @include spec-font;
     font-size: 1.2rem;
+  }
+
+  .oops {
+    display: none;
+  }
+
+  .hide {
+    display: block;
   }
 };

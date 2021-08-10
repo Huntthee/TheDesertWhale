@@ -18,7 +18,8 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 - [x] Refactor HTML site to EJS. :computer:
 - [x] Host new site via Heroku :muscle:
 - [x] Custom Domain Name! :whale:
-
+- [ ] Update hamburger menu to close when tapping elsewhere on screen as well.
+- [ ] Add Tablet mediaqueries & styles.
 
 --- 
 
@@ -26,6 +27,7 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 
 - [Devhints.io](https://devhints.io/sass) Has been of great help with remembering all the bits and pieces available with a bit of SCSS.
 - [Google](https://google.com) for all things.
+- [Stackoverflow](https://stackoverflow.com) to figure out any tricky bugs.
 - [Alii](https://rawooo.carrd.co/) Another awesome Artist/Streamer! Creator of the cute little favicon and cursor image.
-- [Codecademy](https://codecademy.com) to learn React.
+- [Codecademy](https://codecademy.com) for tons of courses on JS.
 - [Tony Grimes](https://github.com/acidtone) Teacher of Web Development course at SAIT and great source for reference material!
