@@ -177,6 +177,7 @@ const addValue = choice => {
 // Hamburger menu toggle function
 const toggleMenu = () => {
   let menu = document.getElementById("main-nav");
+
   if (menu.style.display === "none") {
     menu.style.display = "block";
   } else {
