@@ -434,8 +434,26 @@ body a:hover {
   #hero-section {
     margin-top: 5rem;
   }
+  #about-section #profile-pic {
+    width: 38%;
+    height: auto;
+  }
   #portfolio-gallery {
-    margin-left: 2rem;
+    margin-left: 5rem;
+  }
+  #portfolio-gallery #image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #portfolio-gallery #image-container .gallery-image {
+    width: 40%;
   }
 }
 

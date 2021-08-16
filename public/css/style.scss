@@ -447,8 +447,24 @@ body {
     margin-top: 5rem;
   }
 
+  #about-section {
+    #profile-pic {
+      width: 38%;
+      height: auto;
+    } 
+  }
+  
+
   #portfolio-gallery {
-    margin-left: 2rem;
+    margin-left: 5rem;
+    #image-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .gallery-image {
+        width: 40%;
+      }
+    }
   }
 }
 
