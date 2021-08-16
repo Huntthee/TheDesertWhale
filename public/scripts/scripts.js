@@ -1,6 +1,11 @@
 // Array of Objects holding info on various clients and artworks completed
 const gallery = [
   {
+    "alt": "Large panel of various emotes for various clients",
+    "src": '"images/Emote-Spread.jpg"',
+    "desc": "A wonderful variety of styles to suit your personality"
+  },
+  {
     "alt": "Starting scene depicting Arcadio and Ghostface, and emotes for Arcadio",
     "src": '"images/Arcadio-Scene-and-Emotes.jpg"',
     "desc": "Starting Scene and Emotes for Arcadio"
