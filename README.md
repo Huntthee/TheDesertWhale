@@ -14,10 +14,11 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 - [x] Created basic HTML Commissions site.
 - [x]  Included a Formspree form for commissions/orders :pencil:
 - [x] Integrate some fancy/subtle animations :heavy_check_mark:
-- [ ] More animations! :dancer:
+- [x] More animations! :dancer:
 - [x] Refactor HTML site to EJS. :computer:
 - [x] Host new site via Heroku :muscle:
 - [x] Custom Domain Name! :whale:
+- [x] Added custom 404 page. :stop_sign:
 - [ ] Update hamburger menu to close when tapping elsewhere on screen as well.
 - [ ] Add Tablet mediaqueries & styles.
 

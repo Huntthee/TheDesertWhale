@@ -169,13 +169,12 @@ const gallery = [
 
 // A little bit of increased UX. Pre-populate the form text-field with some default text about the customer's choice, depending on which link they've clicked!
 const addValue = choice => {
-  const reply = "I would like to get the ";
   const pick = choice;
-  document.getElementById("comments").value += `${reply}${pick}`;
+  document.getElementById("comments").value += `I would like to get the ${pick} please!`;
 };
 
 
-// Simple logic for a toggle function
+// Hamburger menu toggle function
 const toggleMenu = () => {
   let menu = document.getElementById("main-nav");
   if (menu.style.display === "none") {
@@ -185,7 +184,7 @@ const toggleMenu = () => {
   }
 };
 
-//loop for iterating over images and creating portfolio gallery
+//loop for iterating over images and creating the portfolio gallery
 let output = '<div id="image-container">';
 
 const images = gallery.forEach(function(item){
