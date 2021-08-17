@@ -422,13 +422,21 @@ body {
     flex-direction: column;
     align-items: center;
 
-    padding: 25px 50px;
-    margin: 25px 0;
+    padding-top: 25px;
+    margin: 25px;
 
     border: 5px solid $amaranth;
     border-radius: 15px;
 
     text-align: center;
+    td {
+      padding: 2.5px 20px;
+    }
+
+    #complete {
+      max-height: 300px;
+      overflow-y: scroll;
+    }
   }
 } 
 
@@ -488,10 +496,12 @@ body {
   #waitlist-section {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+
     article {
       padding: 20px;
-      margin: 0 10px;
+      margin: 10px 25px;
     }
   }
 }
@@ -519,6 +529,7 @@ body {
 
     // Display the navigation as a nice sidebar
     #main-nav {
+      text-align: center;
       display: flex;
       flex-direction: column;
       background: $torange;
@@ -699,7 +710,7 @@ body {
   #status-container-2 {
     display: flex;
     font-weight: bold;
-    padding-left: 5px;
+    padding: 0 5px;
     margin-top: -2rem;
   }
 
@@ -817,8 +828,11 @@ body {
   // ------------------------------- Waitlist
   #waitlist-section {
     article {
-      padding: 0 100px 100px 100px;
-      margin: 0 25px 300px 25px;
+      padding: 0 25px;
+      #complete {
+        max-height: 300px;
+        overflow-y: scroll;
+      }
     }
   }
 

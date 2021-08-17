@@ -146,7 +146,7 @@ const gallery = [
   },
   {
     "alt": "Personal Stream Schedule",
-    "src": '"images/DesertWhale-Schedule.jpg"',
+    "src": '"images/des-schedule.jpg"',
     "desc": "Stream Schedule for Myself"
   },
   {

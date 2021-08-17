@@ -419,11 +419,20 @@ body a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 25px 50px;
-  margin: 25px 0;
+  padding-top: 25px;
+  margin: 25px;
   border: 5px solid #e5234b;
   border-radius: 15px;
   text-align: center;
+}
+
+#waitlist-section article td {
+  padding: 2.5px 20px;
+}
+
+#waitlist-section article #complete {
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 #footer {
@@ -480,10 +489,15 @@ body a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #waitlist-section article {
     padding: 20px;
-    margin: 0 10px;
+    margin: 10px 25px;
   }
 }
 
@@ -501,6 +515,7 @@ body a:hover {
     display: none;
   }
   #header #main-nav {
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -702,7 +717,7 @@ body a:hover {
     display: -ms-flexbox;
     display: flex;
     font-weight: bold;
-    padding-left: 5px;
+    padding: 0 5px;
     margin-top: -2rem;
   }
   #portfolio-gallery {
@@ -796,8 +811,11 @@ body a:hover {
     max-width: 160ch;
   }
   #waitlist-section article {
-    padding: 0 100px 100px 100px;
-    margin: 0 25px 300px 25px;
+    padding: 0 25px;
+  }
+  #waitlist-section article #complete {
+    max-height: 300px;
+    overflow-y: scroll;
   }
   #footer {
     font-family: 'Nanum pen script', Arial, monospace;
