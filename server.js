@@ -27,6 +27,10 @@ app.get('/policy', function(req, res){
   res.render('pages/policy');
 });
 
+app.get('/waitlist', function(req, res){
+  res.render('pages/waitlist');
+});
+
 app.use(function(req, res, next){
   res.status(404);
 
