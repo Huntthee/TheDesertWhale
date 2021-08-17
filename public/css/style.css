@@ -408,6 +408,24 @@ body a:hover {
   text-align: left;
 }
 
+#waitlist-section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px 50px;
+  margin: 25px 0;
+  border: 5px solid #e5234b;
+  border-radius: 15px;
+  text-align: center;
+}
+
 #footer {
   font-family: 'Nanum pen script', Arial, monospace;
   height: 1rem;
@@ -454,6 +472,19 @@ body a:hover {
   }
   #portfolio-gallery #image-container .gallery-image {
     width: 40%;
+  }
+  #waitlist-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #waitlist-section article {
+    padding: 20px;
+    margin: 0 10px;
   }
 }
 
@@ -764,6 +795,10 @@ body a:hover {
   }
   #policy-page {
     max-width: 160ch;
+  }
+  #waitlist-section article {
+    padding: 0 100px 100px 100px;
+    margin: 0 25px 300px 25px;
   }
   #footer {
     font-family: 'Nanum pen script', Arial, monospace;
