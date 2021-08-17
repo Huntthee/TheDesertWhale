@@ -430,7 +430,6 @@ body a:hover {
   font-family: 'Nanum pen script', Arial, monospace;
   height: 1rem;
   padding-left: 20px;
-  z-index: 100;
 }
 
 .oops {

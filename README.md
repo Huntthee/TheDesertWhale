@@ -20,8 +20,9 @@ Streamer, Artist and all-round wholesome person. This website is to help boost b
 - [x] Custom Domain Name! :whale:
 - [x] Added custom 404 page. :stop_sign:
 - [ ] Update hamburger menu to close when tapping elsewhere on screen as well.
-- [ ] Add Tablet mediaqueries & styles.
-
+- [x] Add Tablet mediaqueries & styles.
+- [x] Add custom waitlist for more transparent progress updates. :pencil:
+- [x] Split more pages/sections out into partials.
 --- 
 
 ### Attributions: 
