@@ -3,16 +3,19 @@ const waiting = [
     "name": "Mrbrighside1"
   },
   {
-    "name": "Kamizard_"
-  },
-  {
     "name": "Lexxo & DrSpanky"
   },
   {
     "name": "DillThrills"
   },
   {
-    "name": "Meekstv15"
+    "name": "SilverKestrelStudios"
+  },
+  {
+    "name": "Tb0neT0ne"
+  },
+  {
+    "name": "OG_Monrk"
   }
 ];
 
@@ -21,11 +24,18 @@ const working = [
     "name": "Notorious_BLT"
   },
   {
-    "name": "OG_Monrk"
+    "name": "Kamizard_"
+  },
+  {
+    "name": "Meekstv15"
   }
 ];
 
 const complete = [
+  {
+    "name": "OG_Monrk",
+    "work": "Merch Logo"
+  },
   {
     "name": "JarlMaxi",
     "work": "Commercial artwork for merch."
