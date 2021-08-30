@@ -1,5 +1,25 @@
 const gallery = [
   {
+    "alt": "Starting scene depicting Arcadio and Ghostface, and emotes for Arcadio",
+    "src": '"images/Tales_Of_Doroda_01.webp"',
+    "desc": "YouTube Thumbnails for SilverKestrelStudios"
+  },
+  {
+    "alt": "Starting scene depicting Arcadio and Ghostface, and emotes for Arcadio",
+    "src": '"images/KestrelQuests_01.webp"',
+    "desc": "YouTube Thumbnails for SilverKestrelStudios"
+  },
+  {
+    "alt": "OG_Monrk's Illustrated Avatar for Merchandise, featuring custom character",
+    "src": '"images/SOM_Final.webp"',
+    "desc": "OG_Monrk's Illustrated Avatar for Merchandise"
+  },
+  {
+    "alt": "Illustrated character avatar for meekstv featuring the Pokemon, Gengar",
+    "src": '"images/meeks-avatar.webp"',
+    "desc": "Meeks Illustrated Avatar"
+  },
+  {
     "alt": "Large panel of various emotes for various clients",
     "src": '"images/Emote-Spread.jpg"',
     "desc": "A wonderful variety of styles to suit your personality"

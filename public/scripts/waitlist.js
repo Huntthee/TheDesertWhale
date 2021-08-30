@@ -9,9 +9,6 @@ const waiting = [
     "name": "DillThrills"
   },
   {
-    "name": "SilverKestrelStudios"
-  },
-  {
     "name": "Tb0neT0ne"
   },
   {
@@ -30,11 +27,15 @@ const working = [
     "name": "Kamizard_"
   },
   {
-    "name": "Meekstv15"
+    "name": "SilverKestrelStudios"
   }
 ];
 
 const complete = [
+  {
+    "name": "Meekstv15",
+    "work": "Illustrated Avatar"
+  },
   {
     "name": "OG_Monrk",
     "work": "Merch Logo"
