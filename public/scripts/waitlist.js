@@ -1,10 +1,6 @@
 const waiting = [
-  {
-    "name": "Mrbrighside1"
-  },
-  {
-    "name": "Lexxo & DrSpanky"
-  },
+  
+  
   {
     "name": "DillThrills"
   },
@@ -21,17 +17,23 @@ const waiting = [
 
 const working = [
   {
-    "name": "Notorious_BLT"
+    "name": "Lexxo & DrSpanky"
   },
   {
     "name": "Kamizard_"
   },
   {
-    "name": "SilverKestrelStudios"
-  }
+    "name": "Mrbrighside1"
+  },
 ];
 
 const complete = [
+  {
+    "name": "Notorious_BLT"
+  },
+  {
+    "name": "SilverKestrelStudios"
+  },
   {
     "name": "Meekstv15",
     "work": "Illustrated Avatar"
