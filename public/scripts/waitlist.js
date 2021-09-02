@@ -1,6 +1,4 @@
 const waiting = [
-  
-  
   {
     "name": "DillThrills"
   },
@@ -29,10 +27,12 @@ const working = [
 
 const complete = [
   {
-    "name": "Notorious_BLT"
+    "name": "Notorious_BLT",
+    "work": "Emotes & YouTube Thumbnail"
   },
   {
-    "name": "SilverKestrelStudios"
+    "name": "SilverKestrelStudios",
+    "work": "Scenes & YouTube Thumbnails"
   },
   {
     "name": "Meekstv15",
