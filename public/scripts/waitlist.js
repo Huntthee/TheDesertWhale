@@ -3,9 +3,6 @@ const waiting = [
     "name": "DillThrills"
   },
   {
-    "name": "Tb0neT0ne"
-  },
-  {
     "name": "OG_Monrk"
   },
   {
@@ -15,17 +12,22 @@ const waiting = [
 
 const working = [
   {
-    "name": "Lexxo & DrSpanky"
-  },
-  {
-    "name": "Kamizard_"
-  },
-  {
     "name": "Mrbrighside1"
   },
+  {
+    "name": "Tb0neT0ne"
+  }
 ];
 
 const complete = [
+  {
+    "name": "Lexxo & DrSpanky",
+    "work": "Logo & Icon"
+  },
+  {
+    "name": "Kamizard_",
+    "work": "Logo, Banners & Scenes"
+  },
   {
     "name": "Notorious_BLT",
     "work": "Emotes & YouTube Thumbnail"
