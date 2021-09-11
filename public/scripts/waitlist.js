@@ -6,11 +6,18 @@ const waiting = [
     "name": "OG_Monrk"
   },
   {
-    "name": "PrincessPlaya44"
+    "name": "JustinGigantor"
+  },
+  {
+    "name": "HeyCallMeClay"
   }
+  
 ];
 
 const working = [
+  {
+    "name": "Kamizard_"
+  },
   {
     "name": "Mrbrighside1"
   },
@@ -20,6 +27,10 @@ const working = [
 ];
 
 const complete = [
+  {
+    "name": "PrincessPlaya44",
+    "work": "Logo"
+  },
   {
     "name": "Lexxo & DrSpanky",
     "work": "Logo & Icon"
