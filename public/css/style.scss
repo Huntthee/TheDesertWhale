@@ -209,7 +209,7 @@ body {
     background: $shade;
     width: 90%;
     border-radius: 15px;
-    margin: 1rem 1rem 0 1rem;
+    margin: 0 auto;
     img {
       width: 85%;
       padding: 15px;
@@ -717,18 +717,12 @@ body {
 
   // --------------------------------------- Portfolio Page
   #portfolio-gallery {
-    display: inline-block;
-    width: 75%;
-    #image-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      
-    }
+    width: 80%;
     .gallery-image {
-      width: 30%;
+      margin-bottom: 5%;
       h3 {
         font-size: 1.7rem;
+        padding-bottom: 2%;
       }
     }
   }

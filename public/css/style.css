@@ -198,7 +198,7 @@ body a:hover {
   background: #d6d4ce;
   width: 90%;
   border-radius: 15px;
-  margin: 1rem 1rem 0 1rem;
+  margin: 0 auto;
 }
 
 #portfolio-gallery .gallery-image img {
@@ -721,25 +721,14 @@ body a:hover {
     margin-top: -2rem;
   }
   #portfolio-gallery {
-    display: inline-block;
-    width: 75%;
-  }
-  #portfolio-gallery #image-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    width: 80%;
   }
   #portfolio-gallery .gallery-image {
-    width: 30%;
+    margin-bottom: 5%;
   }
   #portfolio-gallery .gallery-image h3 {
     font-size: 1.7rem;
+    padding-bottom: 2%;
   }
   #commission-section .showcase-item {
     width: 75%;
