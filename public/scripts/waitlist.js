@@ -1,10 +1,5 @@
 const waiting = [
-  {
-    "name": "DillThrills"
-  },
-  {
-    "name": "OG_Monrk"
-  },
+  
   {
     "name": "JustinGigantor"
   },
@@ -13,6 +8,9 @@ const waiting = [
   },
   {
     "name": "TzEnglishMuffin"
+  },
+  {
+    "name": "Tb0neT0ne"
   }
   
 ];
@@ -25,11 +23,18 @@ const working = [
     "name": "Mrbrighside1"
   },
   {
-    "name": "Tb0neT0ne"
+    "name": "DillThrills"
+  },
+  {
+    "name": "OG_Monrk"
   }
 ];
 
 const complete = [
+  {
+    "name": "Tb0neT0ne",
+    "work": "Scenes"
+  },
   {
     "name": "PrincessPlaya44",
     "work": "Logo"
