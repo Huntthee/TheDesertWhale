@@ -12,25 +12,27 @@ const waiting = [
   {
     "name": "Tb0neT0ne"
   }
-  
 ];
 
 const working = [
-  {
-    "name": "Kamizard_"
-  },
   {
     "name": "Mrbrighside1"
   },
   {
     "name": "DillThrills"
   },
-  {
-    "name": "OG_Monrk"
-  }
+  
 ];
 
 const complete = [
+  {
+    "name": "Kamizard_",
+    "work": "Emotes"
+  },
+  {
+    "name": "OG_Monrk",
+    "work": "Emotes"
+  },
   {
     "name": "Tb0neT0ne",
     "work": "Scenes"
