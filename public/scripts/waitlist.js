@@ -1,11 +1,11 @@
 const waiting = [
-  
+  {
+    "name": "SilverKestrelStudios"
+  },
   {
     "name": "JustinGigantor"
   },
-  {
-    "name": "HeyCallMeClay"
-  },
+  
   {
     "name": "TzEnglishMuffin"
   },
@@ -16,12 +16,14 @@ const waiting = [
 
 const working = [
   {
+    "name": "HeyCallMeClay"
+  },
+  {
     "name": "Mrbrighside1"
   },
   {
     "name": "DillThrills"
   },
-  
 ];
 
 const complete = [
