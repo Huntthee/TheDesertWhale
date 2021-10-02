@@ -5,10 +5,6 @@ const waiting = [
   {
     "name": "JustinGigantor"
   },
-  
-  {
-    "name": "TzEnglishMuffin"
-  },
   {
     "name": "Tb0neT0ne"
   }
@@ -22,11 +18,15 @@ const working = [
     "name": "Mrbrighside1"
   },
   {
-    "name": "DillThrills"
+    "name": "TzEnglishMuffin"
   },
 ];
 
 const complete = [
+  {
+    "name": "DillThrills",
+    "work": "Logo, Panels & Emote"
+  },
   {
     "name": "Kamizard_",
     "work": "Emotes"
