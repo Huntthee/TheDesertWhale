@@ -7,13 +7,13 @@ const waiting = [
   },
   {
     "name": "Tb0neT0ne"
+  },
+  {
+    "name": "HeyCallMeClay"
   }
 ];
 
 const working = [
-  {
-    "name": "HeyCallMeClay"
-  },
   {
     "name": "Mrbrighside1"
   },
@@ -23,6 +23,10 @@ const working = [
 ];
 
 const complete = [
+  {
+    "name": "HeyCallMeClay",
+    "work": "Stream Package"
+  },
   {
     "name": "DillThrills",
     "work": "Logo, Panels & Emote"
