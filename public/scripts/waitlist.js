@@ -9,17 +9,23 @@ const waiting = [
     "name": "Tb0neT0ne"
   },
   {
-    "name": "HeyCallMeClay"
+    "name": "ElyPypa"
+  },
+  {
+    "name": "Lexxo & DrSpanky"
   }
 ];
 
 const working = [
   {
-    "name": "Mrbrighside1"
+    "name": "HeyCallMeClay"
   },
   {
     "name": "TzEnglishMuffin"
   },
+  {
+    "name": "Mrbrighside1"
+  }
 ];
 
 const complete = [
