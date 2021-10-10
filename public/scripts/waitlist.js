@@ -1,8 +1,5 @@
 const waiting = [
   {
-    "name": "SilverKestrelStudios"
-  },
-  {
     "name": "JustinGigantor"
   },
   {
@@ -12,7 +9,7 @@ const waiting = [
     "name": "ElyPypa"
   },
   {
-    "name": "Lexxo & DrSpanky"
+    "name": "Omarv94"
   }
 ];
 
@@ -21,14 +18,21 @@ const working = [
     "name": "HeyCallMeClay"
   },
   {
-    "name": "TzEnglishMuffin"
+    "name": "Mrbrighside1"
   },
   {
-    "name": "Mrbrighside1"
-  }
+    "name": "Lexxo & DrSpanky"
+  },
+  {
+    "name": "SilverKestrelStudios"
+  },
 ];
 
 const complete = [
+  {
+    "name": "TzEnglishMuffin",
+    "work": "Sub Badges"
+  },
   {
     "name": "HeyCallMeClay",
     "work": "Stream Package"
