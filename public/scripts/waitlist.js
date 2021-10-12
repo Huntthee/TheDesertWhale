@@ -1,8 +1,5 @@
 const waiting = [
   {
-    "name": "JustinGigantor"
-  },
-  {
     "name": "Tb0neT0ne"
   },
   {
@@ -10,6 +7,12 @@ const waiting = [
   },
   {
     "name": "Omarv94"
+  },
+  {
+    "name": "CrazyCleari"
+  },
+  {
+    "name": "Meekstv15"
   }
 ];
 
