@@ -3,13 +3,7 @@ const waiting = [
     "name": "Tb0neT0ne"
   },
   {
-    "name": "ElyPypa"
-  },
-  {
     "name": "Omarv94"
-  },
-  {
-    "name": "CrazyCleari"
   },
   {
     "name": "Meekstv15"
@@ -29,9 +23,16 @@ const working = [
   {
     "name": "SilverKestrelStudios"
   },
+  {
+    "name": "CrazyCleari"
+  },
 ];
 
 const complete = [
+  {
+    "name": "ElyPypa",
+    "work": "Emote"
+  },
   {
     "name": "TzEnglishMuffin",
     "work": "Sub Badges"
