@@ -7,6 +7,12 @@ const waiting = [
   },
   {
     "name": "Meekstv15"
+  },
+  {
+    "name": "CrazyCleari"
+  },
+  {
+    "name": "DadActual_"
   }
 ];
 
@@ -22,9 +28,6 @@ const working = [
   },
   {
     "name": "SilverKestrelStudios"
-  },
-  {
-    "name": "CrazyCleari"
   },
 ];
 
