@@ -9,9 +9,6 @@ const waiting = [
     "name": "Meekstv15"
   },
   {
-    "name": "CrazyCleari"
-  },
-  {
     "name": "DadActual_"
   }
 ];
@@ -23,15 +20,17 @@ const working = [
   {
     "name": "Mrbrighside1"
   },
-  {
-    "name": "Lexxo & DrSpanky"
-  },
+  
   {
     "name": "SilverKestrelStudios"
   },
 ];
 
 const complete = [
+  {
+    "name": "Lexxo & DrSpanky",
+    "work": "Images and Styling for WorldAnvil site"
+  },
   {
     "name": "ElyPypa",
     "work": "Emote"
