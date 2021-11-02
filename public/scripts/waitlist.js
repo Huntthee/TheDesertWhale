@@ -10,6 +10,9 @@ const waiting = [
   },
   {
     "name": "DadActual_"
+  },
+  {
+    "name": "FranklinTurtz"
   }
 ];
 
