@@ -164,7 +164,7 @@ body a:hover {
   border-radius: 50%;
 }
 
-#status-container-1, #status-container-2 {
+#status-container-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,15 +172,22 @@ body a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  font-size: 18px;
 }
 
-#status-container-1 .status, #status-container-2 .status {
-  padding-left: 5px;
+#status-container-1 p {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
+#status-container-1 #comm-status {
+  color: #000000;
+}
+
+#status-container-1 #status {
   color: #32c3a6;
-}
-
-#status-container-2 {
-  display: none;
+  text-transform: uppercase;
 }
 
 #portfolio-gallery {
@@ -455,7 +462,7 @@ body a:hover {
 */
 @media screen and (min-width: 600px) {
   #header #mobile-logo {
-    margin: 0 38%;
+    margin: 0 42%;
   }
   #hero-section {
     margin-top: 5rem;

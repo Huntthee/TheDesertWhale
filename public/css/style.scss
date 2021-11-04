@@ -185,19 +185,29 @@ body {
 };
 
 // Keep track of commission status
-#status-container-1, #status-container-2 {
+#status-container-1 {
   display: flex;
   flex-direction: row;
-  .status {
-    padding-left: 5px;
+
+  font-size: 18px;
+
+
+  p {
+    background-color: $white;
+    padding: 15px 30px;
+    border-radius: 50px;
+  }
+
+  #comm-status {
+    color: $black;
+    
+  }
+
+  #status {
     color: $highlight;
+    text-transform: uppercase;
   }
 }
-
-#status-container-2 {
-  display: none;
-}
-
 
 
 // -------------------------------------- Portfolio Gallery Page
@@ -465,7 +475,7 @@ body {
 @media screen and (min-width: 600px) {
   #header {
     #mobile-logo {
-      margin: 0 38%;
+      margin: 0 42%;
     }
   }
 

@@ -16,6 +16,6 @@ const toggleMenu = () => {
   }
 };
 
-// Change the status with greater ease
-const commissions = document.getElementsByClassName('status');
-commissions.innerHTML = '<p>Closed</p>';
+// Change the status with greater ease in future.
+const commissionStatus = document.getElementById('comm-status');
+commissionStatus.innerHTML += '<span id="status"> Closed</span>';
