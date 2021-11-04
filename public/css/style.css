@@ -709,17 +709,6 @@ body a:hover {
     top: 125px;
     right: 25px;
   }
-  #status-container-1 {
-    display: none;
-  }
-  #status-container-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-weight: bold;
-    padding: 0 5px;
-    margin-top: -2rem;
-  }
   #portfolio-gallery {
     width: 80%;
   }

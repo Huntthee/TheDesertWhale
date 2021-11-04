@@ -15,3 +15,7 @@ const toggleMenu = () => {
     menu.style.display = "none";
   }
 };
+
+// Change the status with greater ease
+const commissions = document.getElementsByClassName('status');
+commissions.innerHTML = '<p>Closed</p>';
