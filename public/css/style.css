@@ -164,6 +164,23 @@ body a:hover {
   border-radius: 50%;
 }
 
+#hero-section #scroll-hint {
+  font-family: 'Nanum pen script', Arial, monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+#hero-section #scroll-hint i {
+  padding-left: 10px;
+  font-size: 25px;
+}
+
 #status-container-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -715,6 +732,21 @@ body a:hover {
     position: absolute;
     top: 125px;
     right: 25px;
+  }
+  #hero-section #scroll-hint {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0;
+    font-size: 25px;
+  }
+  #hero-section #scroll-hint i {
+    color: #ffffff;
+    font-size: 30px;
   }
   #portfolio-gallery {
     width: 80%;
