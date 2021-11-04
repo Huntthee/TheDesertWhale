@@ -13,6 +13,12 @@ const waiting = [
   },
   {
     "name": "FranklinTurtz"
+  },
+  {
+    "name": "Kamizard"
+  },
+  {
+    "name": "MelvinS0n"
   }
 ];
 
@@ -51,7 +57,7 @@ const complete = [
     "work": "Logo, Panels & Emote"
   },
   {
-    "name": "Kamizard_",
+    "name": "Kamizard",
     "work": "Emotes"
   },
   {
@@ -71,7 +77,7 @@ const complete = [
     "work": "Logo & Icon"
   },
   {
-    "name": "Kamizard_",
+    "name": "Kamizard",
     "work": "Logo, Banners & Scenes"
   },
   {
@@ -103,7 +109,7 @@ const complete = [
     "work": "Custom Stream Package."
   },
   {
-    "name": "Kamizard_",
+    "name": "Kamizard",
     "work": "Emotes."
   },
   {
