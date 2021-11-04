@@ -452,10 +452,34 @@ body {
     border-radius: 15px;
 
     text-align: center;
-    td {
-      padding: 2.5px 20px;
-    }
 
+    table {
+      font-size: 18px;
+      margin-bottom: 20px;
+      th {
+        @include heading-fonts();
+        padding-bottom: 15px;
+        background-color: $white;
+      }
+
+      td {
+        padding: 5px 20px;
+      }
+
+      td:nth-child(1) {
+        @include spec-font();
+      }
+
+      tr:nth-child(even) {
+        background-color: $salmon;
+        color: $white;
+      }
+      
+      tr:nth-child(odd) {
+        background-color: $lorange;
+      }
+    }
+    
     #complete {
       max-height: 300px;
       overflow-y: scroll;
@@ -848,9 +872,14 @@ body {
   #waitlist-section {
     article {
       padding: 0 25px;
+
       #complete {
         max-height: 300px;
-        overflow-y: scroll;
+        // overflow-y: scroll;
+      }
+
+      table tr td {
+        font-size: 22px;
       }
     }
   }

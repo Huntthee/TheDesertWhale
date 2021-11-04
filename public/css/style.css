@@ -450,8 +450,35 @@ body a:hover {
   text-align: center;
 }
 
-#waitlist-section article td {
-  padding: 2.5px 20px;
+#waitlist-section article table {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#waitlist-section article table th {
+  font-family: 'Signika', Helvetica, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e5234b;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+
+#waitlist-section article table td {
+  padding: 5px 20px;
+}
+
+#waitlist-section article table td:nth-child(1) {
+  font-family: 'Nanum pen script', Arial, monospace;
+}
+
+#waitlist-section article table tr:nth-child(even) {
+  background-color: #fd766b;
+  color: #ffffff;
+}
+
+#waitlist-section article table tr:nth-child(odd) {
+  background-color: #f6d3ac;
 }
 
 #waitlist-section article #complete {
@@ -832,7 +859,9 @@ body a:hover {
   }
   #waitlist-section article #complete {
     max-height: 300px;
-    overflow-y: scroll;
+  }
+  #waitlist-section article table tr td {
+    font-size: 22px;
   }
   #footer {
     font-family: 'Nanum pen script', Arial, monospace;
