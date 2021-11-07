@@ -149,11 +149,9 @@ body {
 
 //  ---------------------------------------- Home page styles
 #hero-section {
-  height: 100vh;
-
   h1 {
     font-size: 3rem;
-    margin-top: -7rem;
+    margin-top: 200px;
   };
   
   p {
@@ -353,11 +351,10 @@ body {
 
 // --------------------------------------   About Page
 #about-section {
-  h1 {
-    font-size: 2.5rem;
-  };
   h2 {
-    margin-top: -2rem;
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-top: 75px;
   };
   #profile-pic {
     border: 2px solid $salmon;
@@ -373,20 +370,36 @@ body {
   .about {
     min-width: 75%;
   };
-  #skill-list {
+  .about-list {
+    background-color: $lorange;
+    border-radius: 50px;
     text-align: left;
-    margin: 0 20px;
+    padding: 20px;
+    margin: 20px;
+
+    li {
+      padding: 10px;
+      margin-left: 10px;
+    }
   };
+  .list-title {
+    @include heading-fonts();
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+  }
   p {
+    text-align: center;
     padding: 10px 20px;
+    font-size: 18px;
+    line-height: 25px;
   };
 
   // Styles for the donation button
   #donation-link {
-    background: $lorange;
-    color: $amaranth;
+    background: $amaranth;
+    color: $white;
 
-    border: 2px solid $amaranth;
     border-radius: 30px;
 
     padding: 20px;
@@ -395,8 +408,7 @@ body {
     text-align: center;
 
     &:hover {
-      background: $white;
-      color: $highlight;
+      background: $ampurp;
     };
   };
 
@@ -657,8 +669,10 @@ body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 50px;
     h1 {
-      margin-top: -3rem;
+      margin-top: 50px;
       font-size: 5rem;
     }
     // Styles for Call to Action buttons

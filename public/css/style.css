@@ -127,13 +127,9 @@ body a:hover {
   display: none;
 }
 
-#hero-section {
-  height: 100vh;
-}
-
 #hero-section h1 {
   font-size: 3rem;
-  margin-top: -7rem;
+  margin-top: 200px;
 }
 
 #hero-section p {
@@ -348,12 +344,10 @@ body a:hover {
   color: #32c3a6;
 }
 
-#about-section h1 {
-  font-size: 2.5rem;
-}
-
 #about-section h2 {
-  margin-top: -2rem;
+  letter-spacing: 1px;
+  font-size: 28px;
+  margin-top: 75px;
 }
 
 #about-section #profile-pic {
@@ -373,19 +367,39 @@ body a:hover {
   min-width: 75%;
 }
 
-#about-section #skill-list {
+#about-section .about-list {
+  background-color: #f6d3ac;
+  border-radius: 50px;
   text-align: left;
-  margin: 0 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+#about-section .about-list li {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#about-section .list-title {
+  font-family: 'Signika', Helvetica, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #e5234b;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
 }
 
 #about-section p {
+  text-align: center;
   padding: 10px 20px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 #about-section #donation-link {
-  background: #f6d3ac;
-  color: #e5234b;
-  border: 2px solid #e5234b;
+  background: #e5234b;
+  color: #ffffff;
   border-radius: 30px;
   padding: 20px;
   width: 50%;
@@ -393,8 +407,7 @@ body a:hover {
 }
 
 #about-section #donation-link:hover {
-  background: #ffffff;
-  color: #32c3a6;
+  background: #a92d56;
 }
 
 #about-section #progress-bar {
@@ -652,9 +665,11 @@ body a:hover {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 50px;
   }
   #hero-section h1 {
-    margin-top: -3rem;
+    margin-top: 50px;
     font-size: 5rem;
   }
   #hero-section .call-links {
