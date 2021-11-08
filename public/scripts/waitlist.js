@@ -1,16 +1,5 @@
 const waiting = [
-  {
-    "name": "Tb0neT0ne"
-  },
-  {
-    "name": "Omarv94"
-  },
-  {
-    "name": "Meekstv15"
-  },
-  {
-    "name": "DadActual_"
-  },
+  
   {
     "name": "FranklinTurtz"
   },
@@ -23,6 +12,18 @@ const waiting = [
 ];
 
 const working = [
+  {
+    "name": "Tb0neT0ne"
+  },
+  {
+    "name": "Omarv94"
+  },
+  {
+    "name": "Meekstv15"
+  },
+  {
+    "name": "DadActual_"
+  },
   {
     "name": "HeyCallMeClay"
   },
