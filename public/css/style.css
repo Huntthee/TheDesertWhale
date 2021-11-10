@@ -235,7 +235,7 @@ body a:hover {
 #portfolio-gallery .gallery-image h3 {
   font-family: 'Nanum pen script', Arial, monospace;
   font-size: 1.3rem;
-  margin-bottom: -1rem;
+  margin-bottom: 10px;
   padding-top: 10px;
 }
 
@@ -598,9 +598,6 @@ body a:hover {
     width: 40%;
     margin-top: 25px;
   }
-  #portfolio-gallery #image-container .gallery-image h3 {
-    margin-bottom: 10px;
-  }
   #waitlist-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -647,6 +644,8 @@ body a:hover {
     left: -16px;
     height: 500px;
     padding-top: 2rem;
+    margin-top: 0;
+    margin-left: 0;
     border-right: 2px solid #f6d3ac;
     border-bottom: 2px solid #f6d3ac;
     border-radius: 0 0 15px 0;
