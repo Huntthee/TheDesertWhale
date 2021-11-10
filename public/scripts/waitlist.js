@@ -8,6 +8,9 @@ const waiting = [
   },
   {
     "name": "MelvinS0n"
+  },
+  {
+    "name": "HeyCallMeClay"
   }
 ];
 
@@ -18,25 +21,23 @@ const working = [
   {
     "name": "Omarv94"
   },
-  {
-    "name": "Meekstv15"
-  },
+  
   {
     "name": "DadActual_"
   },
   {
-    "name": "HeyCallMeClay"
-  },
-  {
     "name": "Mrbrighside1"
   },
-  
   {
     "name": "SilverKestrelStudios"
   },
 ];
 
 const complete = [
+  {
+    "name": "Meekstv15",
+    "work": "Emotes, Banner and Scene"
+  },
   {
     "name": "Lexxo & DrSpanky",
     "work": "Images and Styling for WorldAnvil site"

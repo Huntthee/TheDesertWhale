@@ -67,13 +67,16 @@ body a:hover {
 #header {
   position: -webkit-sticky;
   position: sticky;
-  height: 5rem;
+  height: 100px;
   background: #ffffff;
   top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #header #mobile-logo {
-  margin: 0 30%;
+  margin: auto;
 }
 
 #header #mobile-logo img {
@@ -83,7 +86,9 @@ body a:hover {
 }
 
 #bars {
-  margin: .5rem;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: -45px;
   font-size: 2.5rem;
   color: #a92d56;
   background: #ffffff;
@@ -94,7 +99,8 @@ body a:hover {
 
 #main-nav {
   position: absolute;
-  margin: -.5rem 0 0 1rem;
+  margin-top: 50px;
+  margin-left: 75px;
   list-style: none;
   display: none;
 }
@@ -447,6 +453,8 @@ body a:hover {
   background: #e5234b;
   color: #ffffff;
   border-radius: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 20px;
   width: 50%;
   text-align: center;
@@ -565,10 +573,11 @@ body a:hover {
 */
 @media screen and (min-width: 600px) {
   #header #mobile-logo {
-    margin: 0 42%;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
-  #hero-section {
-    margin-top: 5rem;
+  #hero-section h1 {
+    margin-top: 25px;
   }
   #about-section #profile-pic {
     width: 38%;

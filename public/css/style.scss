@@ -87,12 +87,15 @@ body {
 #header {
   position: sticky;
 
-  height: 5rem;
+  height: 100px;
   background: $white;
 
   top: 0;
+
+  display: flex;
   #mobile-logo {
-    margin: 0 30%;
+    margin: auto;
+    
     img {
       width: 50px;
       height: 50px;
@@ -103,7 +106,9 @@ body {
 
 // Get the fontawesome bars in the right spot and lookin good, enable pointer.
 #bars {
-  margin: .5rem;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: -45px;
   font-size: 2.5rem;
   color: $ampurp;
   background: $white;
@@ -115,7 +120,8 @@ body {
 // Let's make sure the nav bar is displayed as a hamburger menu on mobile devices.
 #main-nav {
   position: absolute;
-  margin: -.5rem 0 0 1rem;
+  margin-top: 50px;
+  margin-left: 75px;
   list-style: none;
   display: none;
   a {
@@ -441,6 +447,8 @@ body {
 
     border-radius: 30px;
 
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px;
     width: 50%;
 
@@ -563,12 +571,14 @@ body {
 @media screen and (min-width: 600px) {
   #header {
     #mobile-logo {
-      margin: 0 42%;
+      justify-self: center;
     }
   }
 
   #hero-section {
-    margin-top: 5rem;
+   h1 {
+     margin-top: 25px;
+   }
   }
 
   #about-section {
