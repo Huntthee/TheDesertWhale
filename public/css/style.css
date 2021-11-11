@@ -101,31 +101,33 @@ body a:hover {
   position: absolute;
   margin-top: 50px;
   margin-left: 75px;
+  display: none;
+}
+
+#main-nav #center-image {
+  display: none;
+}
+
+#main-nav ul {
   list-style: none;
-  display: none;
+  margin-left: -50px;
 }
 
-#main-nav a img {
-  display: none;
-}
-
-#main-nav li {
+#main-nav ul li a {
+  display: inline-block;
   background: #ffffff;
-  padding: 1rem;
+  padding: 15px;
+  width: 150px;
   border: 1px solid #e5234b;
-  font-size: 1.2rem;
+  font-size: 20px;
+  text-align: center;
 }
 
-#main-nav li:focus {
-  background: #f6d3ac;
-  color: #32c3a6;
-}
-
-#main-nav #first-link {
+#main-nav #first-link a {
   border-radius: 0 15px 0 0;
 }
 
-#main-nav #last-link {
+#main-nav #last-link a {
   border-radius: 0 0 15px 15px;
 }
 
@@ -641,31 +643,30 @@ body a:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     background: #fd4e4d;
-    left: -16px;
-    height: 500px;
-    padding-top: 2rem;
+    height: 550px;
+    padding-top: 30px;
     margin-top: 0;
     margin-left: 0;
     border-right: 2px solid #f6d3ac;
     border-bottom: 2px solid #f6d3ac;
     border-radius: 0 0 15px 0;
   }
-  #header #main-nav li {
+  #header #main-nav ul li a {
     background: #f6d3ac;
-    margin: 1rem 1.5rem 0 1.5rem;
-    padding: .5rem;
-    border-radius: 25px;
+    margin: 5px 20px;
+    border-radius: 50px;
   }
-  #header #main-nav li:hover {
+  #header #main-nav ul li a:hover {
     background: #ffffff;
   }
   #header #main-nav #center-image {
+    display: block;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    background: transparent;
   }
   #header #main-nav #center-image img {
-    display: block;
     width: 100px;
     height: 100px;
   }

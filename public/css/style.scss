@@ -122,27 +122,37 @@ body {
   position: absolute;
   margin-top: 50px;
   margin-left: 75px;
-  list-style: none;
+  
   display: none;
-  a {
-    img {
-      display: none;
-    }
+
+  #center-image {
+    display: none;
   }
-  li {
+
+  ul {
+    list-style: none;
+    margin-left: -50px;
+  }
+
+  ul li a {
+    display: inline-block;
+
     background: $white;
-    padding: 1rem;
+
+    padding: 15px;
+    width: 150px;
+
     border: 1px solid $amaranth;
-    font-size: 1.2rem;
-    &:focus {
-      background: $lorange;
-      color: $highlight;
-    }
+
+    font-size: 20px;
+    text-align: center;
   }
-  #first-link {
+
+
+  #first-link a {
     border-radius: 0 15px 0 0;
   }
-  #last-link {
+  #last-link a {
     border-radius: 0 0 15px 15px;
   }
 
@@ -645,30 +655,34 @@ body {
 
       background: $torange;
 
-      left: -16px;
-      height: 500px;
-      padding-top: 2rem;
+      
+      height: 550px;
+      padding-top: 30px;
       margin-top: 0;
       margin-left: 0;
 
       border-right: 2px solid $lorange;
       border-bottom: 2px solid $lorange;
       border-radius: 0 0 15px 0;
-      li {
+
+      ul li a {
         background: $lorange;
-        margin: 1rem 1.5rem 0 1.5rem;
-        padding: .5rem;
-        border-radius: 25px;
-        &:hover {
-          background: $white;
-        }
+
+        margin: 5px 20px;
+
+        border-radius: 50px;
+
+         &:hover {
+           background: $white;
+         }
       }
 
       // Logo Image
       #center-image {
+        display: block;
         align-self: center;
+        background: transparent;
         img {
-          display: block;
           width: 100px;
           height: 100px; 
         }
