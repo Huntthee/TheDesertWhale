@@ -582,7 +582,7 @@ body a:hover {
     margin-top: 25px;
   }
   #about-section #profile-pic {
-    width: 38%;
+    width: 30%;
     height: auto;
   }
   #portfolio-gallery #image-container {
@@ -599,6 +599,24 @@ body a:hover {
   #portfolio-gallery #image-container .gallery-image {
     width: 40%;
     margin-top: 25px;
+  }
+  .commission-page-title {
+    font-size: 50px;
+  }
+  .showcase-item h2 {
+    font-size: 40px;
+  }
+  .showcase-item figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .showcase-item figure img {
+    width: 50%;
+  }
+  .showcase-item figure ul {
+    margin-right: 20px;
+    width: 30%;
   }
   #waitlist-section {
     display: -webkit-box;
@@ -857,7 +875,7 @@ body a:hover {
     padding-bottom: 2%;
   }
   #commission-section .showcase-item {
-    width: 75%;
+    width: 60%;
     margin: 40px;
   }
   #commission-section .showcase-item h3 {

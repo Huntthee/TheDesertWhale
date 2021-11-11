@@ -593,7 +593,7 @@ body {
 
   #about-section {
     #profile-pic {
-      width: 38%;
+      width: 30%;
       height: auto;
     } 
   }
@@ -608,6 +608,27 @@ body {
       .gallery-image {
         width: 40%;
         margin-top: 25px;
+      }
+    }
+  }
+  
+  .commission-page-title {
+    font-size: 50px;
+  }
+
+  .showcase-item {
+    h2 {
+      font-size: 40px;
+    }
+
+    figure {
+      display: flex;
+      img {
+        width: 50%;
+      }
+      ul {
+        margin-right: 20px;
+        width: 30%;
       }
     }
   }
@@ -865,7 +886,7 @@ body {
   // --------------------------------------- Commission Page 
   #commission-section {
     .showcase-item {
-      width: 75%;
+      width: 60%;
       margin: 40px;
       h3 {
         font-size: 1.5rem;
