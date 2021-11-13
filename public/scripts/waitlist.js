@@ -11,6 +11,18 @@ const waiting = [
   },
   {
     "name": "HeyCallMeClay"
+  },
+  {
+    "name": "ThePluckyAvatar"
+  },
+  {
+    "name": "Justin Gigantor"
+  },
+  {
+    "name": "NoAimDontFlame"
+  },
+  {
+    "name": "TommyYoza"
   }
 ];
 
@@ -21,10 +33,6 @@ const working = [
   {
     "name": "Omarv94"
   },
-  
-  {
-    "name": "DadActual_"
-  },
   {
     "name": "Mrbrighside1"
   },
@@ -34,6 +42,10 @@ const working = [
 ];
 
 const complete = [
+  {
+    "name": "DadActual_",
+    "work": "Logo"
+  },
   {
     "name": "Meekstv15",
     "work": "Emotes, Banner and Scene"
