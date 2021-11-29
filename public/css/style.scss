@@ -920,6 +920,7 @@ body {
 
   // Update styles for info section
   #info-section {
+    width: 70%;
     padding-right: 0;
     padding-left: 0;
     p {
@@ -972,18 +973,21 @@ body {
 
   // -------------------------------------- Policy Page
   #policy-page {
+    width: 70%;
     max-width: 160ch;
+    line-height: 30px;
   }
 
 
   // ------------------------------- Waitlist
   #waitlist-section {
+    margin-bottom: 50px;
+    width: 80%;
     article {
       padding: 0 25px;
 
       #complete {
         max-height: 300px;
-        // overflow-y: scroll;
       }
 
       table tr td {

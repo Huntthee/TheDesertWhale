@@ -910,6 +910,7 @@ body a:hover {
     width: 60%;
   }
   #info-section {
+    width: 70%;
     padding-right: 0;
     padding-left: 0;
   }
@@ -948,7 +949,13 @@ body a:hover {
     padding: 20px;
   }
   #policy-page {
+    width: 70%;
     max-width: 160ch;
+    line-height: 30px;
+  }
+  #waitlist-section {
+    margin-bottom: 50px;
+    width: 80%;
   }
   #waitlist-section article {
     padding: 0 25px;
