@@ -20,6 +20,12 @@ const waiting = [
   },
   {
     "name": "TommyYoza"
+  },
+  {
+    "name": "SmileyRaider96"
+  },
+  {
+    "name": "TzEnglishMuffin"
   }
 ];
 
