@@ -30,9 +30,7 @@ const waiting = [
 ];
 
 const working = [
-  {
-    "name": "MelvinS0n"
-  },
+  
   {
     "name": "Tb0neT0ne"
   },
@@ -46,6 +44,10 @@ const working = [
 ];
 
 const complete = [
+  {
+    "name": "MelvinS0n",
+    "work": "Emote & Merch Resize"
+  },
   {
     "name": "Omarv94",
     "work": "2 Emotes & Logo"
