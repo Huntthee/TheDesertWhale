@@ -1,12 +1,6 @@
 const waiting = [
   
   {
-    "name": "FranklinTurtz"
-  },
-  {
-    "name": "Kamizard"
-  },
-  {
     "name": "HeyCallMeClay"
   },
   {
@@ -30,7 +24,9 @@ const waiting = [
 ];
 
 const working = [
-  
+  {
+    "name": "Kamizard"
+  },
   {
     "name": "Tb0neT0ne"
   },
@@ -45,232 +41,236 @@ const working = [
 
 const complete = [
   {
-    "name": "MelvinS0n",
-    "work": "Emote & Merch Resize"
+    name: "FranklinTurtz",
+    work: "Emote for Twitch"
   },
   {
-    "name": "Omarv94",
-    "work": "2 Emotes & Logo"
+    name: "MelvinS0n",
+    work: "Emote & Merch Resize",
   },
   {
-    "name": "DadActual_",
-    "work": "Logo"
+    name: "Omarv94",
+    work: "2 Emotes & Logo",
   },
   {
-    "name": "Meekstv15",
-    "work": "Emotes, Banner and Scene"
+    name: "DadActual_",
+    work: "Logo",
   },
   {
-    "name": "Lexxo & DrSpanky",
-    "work": "Images and Styling for WorldAnvil site"
+    name: "Meekstv15",
+    work: "Emotes, Banner and Scene",
   },
   {
-    "name": "ElyPypa",
-    "work": "Emote"
+    name: "Lexxo & DrSpanky",
+    work: "Images and Styling for WorldAnvil site",
   },
   {
-    "name": "TzEnglishMuffin",
-    "work": "Sub Badges"
+    name: "ElyPypa",
+    work: "Emote",
   },
   {
-    "name": "HeyCallMeClay",
-    "work": "Stream Package"
+    name: "TzEnglishMuffin",
+    work: "Sub Badges",
   },
   {
-    "name": "DillThrills",
-    "work": "Logo, Panels & Emote"
+    name: "HeyCallMeClay",
+    work: "Stream Package",
   },
   {
-    "name": "Kamizard",
-    "work": "Emotes"
+    name: "DillThrills",
+    work: "Logo, Panels & Emote",
   },
   {
-    "name": "OG_Monrk",
-    "work": "Emotes"
+    name: "Kamizard",
+    work: "Emotes",
   },
   {
-    "name": "Tb0neT0ne",
-    "work": "Scenes"
+    name: "OG_Monrk",
+    work: "Emotes",
   },
   {
-    "name": "PrincessPlaya44",
-    "work": "Logo"
+    name: "Tb0neT0ne",
+    work: "Scenes",
   },
   {
-    "name": "Lexxo & DrSpanky",
-    "work": "Logo & Icon"
+    name: "PrincessPlaya44",
+    work: "Logo",
   },
   {
-    "name": "Kamizard",
-    "work": "Logo, Banners & Scenes"
+    name: "Lexxo & DrSpanky",
+    work: "Logo & Icon",
   },
   {
-    "name": "Notorious_BLT",
-    "work": "Emotes & YouTube Thumbnail"
+    name: "Kamizard",
+    work: "Logo, Banners & Scenes",
   },
   {
-    "name": "SilverKestrelStudios",
-    "work": "Scenes & YouTube Thumbnails"
+    name: "Notorious_BLT",
+    work: "Emotes & YouTube Thumbnail",
   },
   {
-    "name": "Meekstv15",
-    "work": "Illustrated Avatar"
+    name: "SilverKestrelStudios",
+    work: "Scenes & YouTube Thumbnails",
   },
   {
-    "name": "OG_Monrk",
-    "work": "Merch Logo"
+    name: "Meekstv15",
+    work: "Illustrated Avatar",
   },
   {
-    "name": "JarlMaxi",
-    "work": "Commercial artwork for merch."
+    name: "OG_Monrk",
+    work: "Merch Logo",
   },
   {
-    "name": "Arcadio",
-    "work": "Personal Artwork"
+    name: "JarlMaxi",
+    work: "Commercial artwork for merch.",
   },
   {
-    "name": "Smoke_Eater3696",
-    "work": "Custom Stream Package."
+    name: "Arcadio",
+    work: "Personal Artwork",
   },
   {
-    "name": "Kamizard",
-    "work": "Emotes."
+    name: "Smoke_Eater3696",
+    work: "Custom Stream Package.",
   },
   {
-    "name": "Notorious_BLT",
-    "work": "Pack of 6 Emotes."
+    name: "Kamizard",
+    work: "Emotes.",
   },
   {
-    "name": "Arcadio",
-    "work": "Illustrated Starting Scene."
+    name: "Notorious_BLT",
+    work: "Pack of 6 Emotes.",
   },
   {
-    "name": "Dumpstershark",
-    "work": "Set of Emotes."
+    name: "Arcadio",
+    work: "Illustrated Starting Scene.",
   },
   {
-    "name": "Yolosolofolo",
-    "work": "Pack of 4 Emotes."
+    name: "Dumpstershark",
+    work: "Set of Emotes.",
   },
   {
-    "name": "SilverKestrelStudios",
-    "work": "Sub Badges."
+    name: "Yolosolofolo",
+    work: "Pack of 4 Emotes.",
   },
   {
-    "name": "antsinmyeyes3",
-    "work": "Emotes & Avatar."
+    name: "SilverKestrelStudios",
+    work: "Sub Badges.",
   },
   {
-    "name": "Beardie_89",
-    "work": "Custom Stream Package."
+    name: "antsinmyeyes3",
+    work: "Emotes & Avatar.",
   },
   {
-    "name": "Prxmeth3us",
-    "work": "Pack of 3 Emotes."
+    name: "Beardie_89",
+    work: "Custom Stream Package.",
   },
   {
-    "name": "Joel_theshortone",
-    "work": "Pack of 4 Emotes."
+    name: "Prxmeth3us",
+    work: "Pack of 3 Emotes.",
   },
   {
-    "name": "SpondeeBob",
-    "work": "Pack of 14 Emotes & Sub Badges."
+    name: "Joel_theshortone",
+    work: "Pack of 4 Emotes.",
   },
   {
-    "name": "Jeremey Hay",
-    "work": "Illustrated Character Portrait."
+    name: "SpondeeBob",
+    work: "Pack of 14 Emotes & Sub Badges.",
   },
   {
-    "name": "Arcadio",
-    "work": "Commissioned Stream Schedule."
+    name: "Jeremey Hay",
+    work: "Illustrated Character Portrait.",
   },
   {
-    "name": "Mrbrightside1",
-    "work": "Stream Sched, Avatar & Stream Packages."
+    name: "Arcadio",
+    work: "Commissioned Stream Schedule.",
   },
   {
-    "name": "EvolMelky",
-    "work": "Animated Background."
+    name: "Mrbrightside1",
+    work: "Stream Sched, Avatar & Stream Packages.",
   },
   {
-    "name": "ThePluckyAvatar",
-    "work": "Custom Stream Package."
+    name: "EvolMelky",
+    work: "Animated Background.",
   },
   {
-    "name": "JobberJosh",
-    "work": "Panels."
+    name: "ThePluckyAvatar",
+    work: "Custom Stream Package.",
   },
   {
-    "name": "Rorlann",
-    "work": "Pack of 6 Sub Badges."
+    name: "JobberJosh",
+    work: "Panels.",
   },
   {
-    "name": "RedRumGato",
-    "work": "Custom Stream Package."
+    name: "Rorlann",
+    work: "Pack of 6 Sub Badges.",
   },
   {
-    "name": "PurpleGrimes",
-    "work": "Emote."
+    name: "RedRumGato",
+    work: "Custom Stream Package.",
   },
   {
-    "name": "Vanndriss",
-    "work": "Personal Artwork."
+    name: "PurpleGrimes",
+    work: "Emote.",
   },
   {
-    "name": "Poliswaggs",
-    "work": "Emote."
+    name: "Vanndriss",
+    work: "Personal Artwork.",
   },
   {
-    "name": "JobberJosh",
-    "work": "Pack of 6 Emotes."
+    name: "Poliswaggs",
+    work: "Emote.",
   },
   {
-    "name": "Rorlann",
-    "work": "Illustrated Starting Scene."
+    name: "JobberJosh",
+    work: "Pack of 6 Emotes.",
   },
   {
-    "name": "Arcadio",
-    "work": "Stream Schedule."
+    name: "Rorlann",
+    work: "Illustrated Starting Scene.",
   },
   {
-    "name": "CadesArcade",
-    "work": "Illustrated Scenes."
+    name: "Arcadio",
+    work: "Stream Schedule.",
   },
   {
-    "name": "honey_pot92",
-    "work": "Emote & commissioned emotes."
+    name: "CadesArcade",
+    work: "Illustrated Scenes.",
   },
   {
-    "name": "JarlMaxi",
-    "work": "Avatar."
+    name: "honey_pot92",
+    work: "Emote & commissioned emotes.",
   },
   {
-    "name": "CadesArcade",
-    "work": "Stream Schedule."
+    name: "JarlMaxi",
+    work: "Avatar.",
   },
   {
-    "name": "Jayber29",
-    "work": "Pack of 4 Emotes."
+    name: "CadesArcade",
+    work: "Stream Schedule.",
   },
   {
-    "name": "joeannab",
-    "work": "Pack of 6 Emotes."
+    name: "Jayber29",
+    work: "Pack of 4 Emotes.",
   },
   {
-    "name": "HeyCallMeClay",
-    "work": "Custom Stream Pack."
+    name: "joeannab",
+    work: "Pack of 6 Emotes.",
   },
   {
-    "name": "SilverKestrelStudios",
-    "work": "Stream Panels."
+    name: "HeyCallMeClay",
+    work: "Custom Stream Pack.",
   },
   {
-    "name": "NoAimDontFlame",
-    "work": "Sub Badges."
+    name: "SilverKestrelStudios",
+    work: "Stream Panels.",
   },
   {
-    "name": "SuperStooob",
-    "work": "Stream Panels & Banners."
+    name: "NoAimDontFlame",
+    work: "Sub Badges.",
+  },
+  {
+    name: "SuperStooob",
+    work: "Stream Panels & Banners.",
   },
 ];
 
