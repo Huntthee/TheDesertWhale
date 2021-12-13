@@ -4,9 +4,6 @@ const waiting = [
     "name": "HeyCallMeClay"
   },
   {
-    "name": "ThePluckyAvatar"
-  },
-  {
     "name": "Justin Gigantor"
   },
   {
@@ -25,21 +22,32 @@ const waiting = [
 
 const working = [
   {
-    "name": "Kamizard"
-  },
-  {
-    "name": "Tb0neT0ne"
-  },
-  
-  {
-    "name": "Mrbrighside1"
-  },
-  {
     "name": "SilverKestrelStudios"
   },
 ];
 
 const complete = [
+  {
+    name: "ThePluckyAvatar",
+    work: "Twitch Scene"
+  },
+  {
+    name: "Lexxo",
+    work: "Illustration"
+  },
+  {
+    name: "Kamizard",
+    work: "Emote"
+  },
+  {
+    name: "Tb0neT0ne",
+    work: "Logo for merch"
+  },
+  
+  {
+    name: "Mrbrighside1",
+    work: "Background Illustration"
+  },
   {
     name: "FranklinTurtz",
     work: "Emote for Twitch"
