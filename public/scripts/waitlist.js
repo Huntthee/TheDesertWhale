@@ -28,8 +28,12 @@ const working = [
 
 const complete = [
   {
+    name: 'Millz_xo',
+    work: "Sub Badges"
+  },
+  {
     name: "ThePluckyAvatar",
-    work: "Twitch Scene"
+    work: "Two Twitch Scenes"
   },
   {
     name: "Lexxo",
