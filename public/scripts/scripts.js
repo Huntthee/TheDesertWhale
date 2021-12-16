@@ -18,4 +18,4 @@ const toggleMenu = () => {
 
 // Change the status with greater ease in future.
 const commissionStatus = document.getElementById('comm-status');
-commissionStatus.innerHTML += '<span id="status"> Closed</span>';
+commissionStatus.innerHTML += '<span id="status"> Open</span>';
