@@ -5,9 +5,7 @@ const waiting = [
   {
     "name": "TzEnglishMuffin"
   },
-  {
-    "name": "AceAttorneyMeeks"
-  },
+  
   {
     "name": "HeyCallMeClay"
   },
@@ -16,6 +14,15 @@ const waiting = [
   },
   {
     "name": "TommyYoza"
+  },
+  {
+    "name": "Chester_Dwight"
+  },
+  {
+    "name": "bigmoose_12"
+  },
+  {
+    "name": "Notorious_BLT"
   }
 ];
 
@@ -29,6 +36,10 @@ const working = [
 ];
 
 const complete = [
+  {
+    "name": "AceAttorneyMeeks",
+    "work": "Two Emotes"
+  },
   {
     name: 'Millz_xo',
     work: "Sub Badges"
