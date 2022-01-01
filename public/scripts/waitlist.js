@@ -1,11 +1,7 @@
 const waiting = [
   {
-    "name": "SmileyRaider96"
-  },
-  {
     "name": "TzEnglishMuffin"
   },
-  
   {
     "name": "HeyCallMeClay"
   },
@@ -23,6 +19,12 @@ const waiting = [
   },
   {
     "name": "Notorious_BLT"
+  },
+  {
+    "name": "MelvinS0n"
+  },
+  {
+    "name": "T0xicLibra"
   }
 ];
 
@@ -31,11 +33,16 @@ const working = [
     "name": "SilverKestrelStudios"
   },
   {
-    "name": "NoAimDontFlame"
-  }
+    "name": "SmileyRaider96"
+  },
+  
 ];
 
 const complete = [
+  {
+    "name": "NoAimDontFlame",
+    "work": "Emote"
+  },
   {
     "name": "AceAttorneyMeeks",
     "work": "Two Emotes"
