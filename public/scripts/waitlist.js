@@ -18,6 +18,9 @@ const waiting = [
     "name": "bigmoose_12"
   },
   {
+    "name": "OnBumpers"
+  },
+  {
     "name": "Notorious_BLT"
   },
   {
@@ -25,6 +28,12 @@ const waiting = [
   },
   {
     "name": "T0xicLibra"
+  },
+  {
+    "name": "Jarl Maxi"
+  },
+  {
+    "name": "Overrrrit_"
   }
 ];
 
