@@ -1,16 +1,31 @@
 const gallery = [
   {
-    alt: "Scenes for Tb0neT0ne",
+    alt: "Neon Alien themed sub badges for Millz_XO on Twitch",
+    src: '"images/millz-sub-badges.jpg"',
+    desc: "Sub Badges for MILLZ_xo",
+  },
+  {
+    alt: "Polar bear themed emotes and logo for Omar94 on Twitch",
+    src: '"images/omar-emotes-logo.jpg"',
+    desc: "Emotes & Logo for Omar94",
+  },
+  {
+    alt: "Starting scene of Gengar and Blastoise battling.",
+    src: '"images/meeks-starting-soon.jpg"',
+    desc: "Starting Soon scene for AceAttorneyMEEKs",
+  },
+  {
+    alt: "Dinosaur bone themed Twitch Scenes for Tb0neT0ne",
     src: '"images/tbone-panel.webp"',
     desc: "Scenes for Tb0neT0ne, now on YouTube!",
   },
   {
-    alt: "Sub badges for Tzenglishmuffin",
+    alt: "Various muffin styled Sub badges for Tzenglishmuffin",
     src: '"images/muffin-panel.webp"',
     desc: "Sub Badges for Tzenglishmuffin",
   },
   {
-    alt: "Emotes and Merch goods for OG_Monrk",
+    alt: "Emotes and Merch goods of OG's mascot for OG_Monrk",
     src: '"images/monrk-panel.webp"',
     desc: "OG_Monrk's Emotes and Merch",
   },
@@ -20,22 +35,22 @@ const gallery = [
     desc: "DillThrill's Emote, Logo, Panels & Merch",
   },
   {
-    alt: "Emote for EllyPypa on Twitch",
+    alt: "An Emote of EllyPypa's face for EllyPypa on Twitch",
     src: '"images/ellypypa-emote.webp"',
     desc: "Emote for EllyPypa on Twitch",
   },
   {
-    alt: "YouTube Thumbnail for Notorious_BLT",
+    alt: "A YouTube Thumbnail for Notorious_BLT's Dark Souls videos",
     src: '"images/notor-yt.webp"',
     desc: "YouTube Thumbnail for Notorious_BLT",
   },
   {
-    alt: "Koala avatar for PrincessPlaya",
+    alt: "A Koala avatar for PrincessPlaya",
     src: '"images/princess-koala.webp"',
     desc: "PrincessPlaya's Koala Avatar",
   },
   {
-    alt: "The Unbound Icon",
+    alt: "The Unbound Icon on WorldAnvil",
     src: '"images/unbound-icon.webp"',
     desc: "Icon for Unbound on World Anvil",
   },

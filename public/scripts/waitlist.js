@@ -1,19 +1,13 @@
 const waiting = [
-  {
-    "name": "TzEnglishMuffin"
-  },
+  
   {
     "name": "HeyCallMeClay"
   },
-  {
-    "name": "Justin Gigantor"
-  },
+  
   {
     "name": "TommyYoza"
   },
-  {
-    "name": "Chester_Dwight"
-  },
+  
   {
     "name": "bigmoose_12"
   },
@@ -42,12 +36,21 @@ const working = [
     "name": "SilverKestrelStudios"
   },
   {
-    "name": "SmileyRaider96"
+    "name": "TzEnglishMuffin"
   },
-  
+  {
+    "name": "Justin Gigantor"
+  },
+  {
+    "name": "Chester_Dwight"
+  },
 ];
 
 const complete = [
+  {
+    "name": "SmileyRaider96",
+    "work": "Sub Badges"
+  },
   {
     "name": "NoAimDontFlame",
     "work": "Emote"
