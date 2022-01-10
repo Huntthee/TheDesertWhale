@@ -1,8 +1,53 @@
 const gallery = [
   {
+    alt: "Assorted Sombreros and a cowboy hat for SmileyRaider96",
+    src: '"images/smiley-hats.jpg"',
+    desc: "Sub Badges for SmileyRaider96",
+  },
+  {
     alt: "Neon Alien themed sub badges for Millz_XO on Twitch",
     src: '"images/millz-sub-badges.jpg"',
     desc: "Sub Badges for MILLZ_xo",
+  },
+  {
+    alt: "Inside joke turned emote for NoAimDontFlame",
+    src: '"images/noaim-kiss.jpg"',
+    desc: "Emote for NoAimDontFlame",
+  },
+  {
+    alt: "Boba-fett drinking Boba Tea emote for FranklinTurtz",
+    src: '"images/franklin-boba.jpg"',
+    desc: "Emote for FranklinTurtz",
+  },
+  {
+    alt: "Gengar themed emotes for AceAttorneyMEEKS",
+    src: '"images/meeks-emotes.jpg"',
+    desc: "Emotes for AceAttorneyMEEKs",
+  },
+  {
+    alt: "Second batch of orc themed emotes for Notorious_BLT on Twitch",
+    src: '"images/notor-emote-set-2.jpg"',
+    desc: "More Emotes for Notorious_BLT!",
+  },
+  {
+    alt: "A collection of Emotes for Kamizard",
+    src: '"images/kami-emotes.jpg"',
+    desc: "Emotes for Kamizard",
+  },
+  {
+    alt: "Starting scene of Gengar and Blastoise battling.",
+    src: '"images/mrb-background.webp"',
+    desc: "Illustrated background image for MrBrightside",
+  },
+  {
+    alt: "An Emote of Melvin's dog Stella",
+    src: '"images/stella-for-melvin.jpg"',
+    desc: "Emote for Melvin",
+  },
+  {
+    alt: "Cartoon themed t-rex skeleton logo",
+    src: '"images/tbone-logo.jpg"',
+    desc: "Logo for Tb0neT0ne",
   },
   {
     alt: "Polar bear themed emotes and logo for Omar94 on Twitch",
