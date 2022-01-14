@@ -158,13 +158,13 @@ body a:hover {
 
 #hero-section #social-links {
   margin-top: 8rem;
-  font-size: 2rem;
+  font-size: 15px;
 }
 
 #hero-section #social-links a {
   padding: 1.2rem;
   margin: .5rem;
-  background: #ffffff;
+  background: #f6d3ac;
   border-radius: 50%;
 }
 
@@ -398,6 +398,23 @@ body a:hover {
   color: #32c3a6;
 }
 
+#about-section {
+  /* #progress-bar {
+    background: $lorange;
+    border: 2px solid $amaranth;
+    border-radius: 10px;
+    width: 75%;
+    height: 2rem;
+    margin: 2rem 0;
+    #progress {
+    border-radius: 7px;
+    width: 15%;
+    height: 2rem;
+    background: $amaranth;
+    };
+  };*/
+}
+
 #about-section h2 {
   letter-spacing: 1px;
   font-size: 28px;
@@ -464,22 +481,6 @@ body a:hover {
 
 #about-section #donation-link:hover {
   background: #a92d56;
-}
-
-#about-section #progress-bar {
-  background: #f6d3ac;
-  border: 2px solid #e5234b;
-  border-radius: 10px;
-  width: 75%;
-  height: 2rem;
-  margin: 2rem 0;
-}
-
-#about-section #progress-bar #progress {
-  border-radius: 7px;
-  width: 15%;
-  height: 2rem;
-  background: #e5234b;
 }
 
 #policy-page {
@@ -848,6 +849,13 @@ body a:hover {
     position: absolute;
     top: 125px;
     right: 25px;
+    font-size: 25px;
+  }
+  #hero-section #social-links a {
+    background-color: #ffffff;
+  }
+  #hero-section #social-links .fa-tshirt {
+    font-size: 20px;
   }
   #hero-section #scroll-hint {
     -webkit-box-orient: vertical;

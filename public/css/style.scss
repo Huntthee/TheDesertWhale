@@ -188,11 +188,11 @@ body {
   
   #social-links {
     margin-top: 8rem;
-    font-size: 2rem;
+    font-size: 15px;
     a {
       padding: 1.2rem;
       margin: .5rem;
-      background: $white;
+      background: $lorange;
       border-radius: 50%;
     }
   };
@@ -469,8 +469,9 @@ body {
     };
   };
 
+
   // A basic, non-interactive (yet) progress bar for tracking monthly income vs target.
-  #progress-bar {
+  /* #progress-bar {
     background: $lorange;
     border: 2px solid $amaranth;
     border-radius: 10px;
@@ -483,7 +484,7 @@ body {
     height: 2rem;
     background: $amaranth;
     };
-  };
+  };*/
 };
 
 
@@ -853,6 +854,13 @@ body {
       position: absolute;
       top: 125px;
       right: 25px;
+      font-size: 25px;
+      a {
+        background-color: $white;
+      }
+      .fa-tshirt {
+        font-size: 20px;
+      }
     }
     
     #scroll-hint {
