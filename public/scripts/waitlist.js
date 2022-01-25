@@ -41,27 +41,28 @@ const working = [
   {
     "name": "Justin Gigantor"
   },
-  {
-    "name": "Chester_Dwight"
-  },
 ];
 
 const complete = [
   {
+    "name": "Chester_Dwight",
+    "work": "Three Emotes for Twitch"
+  },
+  {
     "name": "SmileyRaider96",
-    "work": "Sub Badges"
+    "work": "Sub Badges for Twitch"
   },
   {
     "name": "NoAimDontFlame",
-    "work": "Emote"
+    "work": "Emote for Twitch"
   },
   {
     "name": "AceAttorneyMeeks",
-    "work": "Two Emotes"
+    "work": "Two Emotes for Twitch"
   },
   {
     name: 'Millz_xo',
-    work: "Sub Badges"
+    work: "Sub Badges for Twitch"
   },
   {
     name: "ThePluckyAvatar",
@@ -73,7 +74,7 @@ const complete = [
   },
   {
     name: "Kamizard",
-    work: "Emote"
+    work: "Emote for Twitch"
   },
   {
     name: "Tb0neT0ne",
