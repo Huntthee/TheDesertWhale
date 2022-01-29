@@ -1,37 +1,45 @@
 const waiting = [
-  
   {
-    "name": "HeyCallMeClay"
-  },
-  
-  {
-    "name": "TommyYoza"
-  },
-  
-  {
-    "name": "bigmoose_12"
+    name: "Big Moose",
   },
   {
-    "name": "OnBumpers"
+    name: "Notorious_BLT",
   },
   {
-    "name": "Notorious_BLT"
+    name: "OnBumpers",
   },
   {
-    "name": "MelvinS0n"
+    name: "MelvinS0n",
   },
   {
-    "name": "T0xicLibra"
+    name: "T0xicLibra",
   },
   {
-    "name": "Jarl Maxi"
+    name: "Jarl Maxi",
   },
   {
-    "name": "Overrrrit_"
-  }
+    name: "Overrrrit_",
+  },
+  {
+    name: "Budleiser?",
+  },
+  {
+    name: "FranklinTurtz",
+  },
+  {
+    name: "Prxmeth3us",
+  },
 ];
 
-const onHold = [];
+const onHold = [
+  {
+    name: "HeyCallMeClay",
+  },
+
+  {
+    name: "TommyYoza",
+  },
+];
 
 const working = [
   {
