@@ -35,7 +35,6 @@ const onHold = [
   {
     name: "HeyCallMeClay",
   },
-
   {
     name: "TommyYoza",
   },
