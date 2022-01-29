@@ -31,6 +31,8 @@ const waiting = [
   }
 ];
 
+const onHold = [];
+
 const working = [
   {
     "name": "SilverKestrelStudios"
@@ -336,6 +338,22 @@ const client = waiting.forEach(function(item){
 waitTable += '</table>';
 
 document.getElementById('waiting').innerHTML = waitTable;
+
+// Table for clients on hold
+let holdTable = '<table>';
+holdTable += '<tr><th>Name</th></tr>'
+
+const clientHold = onHold.forEach(function(item) {
+  holdTable += `
+  <tr>
+  <td>${item.name}</td>
+  </tr>
+  `;
+});
+
+holdTable += '</table>';
+
+document.getElementById('on-hold').innerHTML = holdTable;
 
 
 // Table for works in progress
