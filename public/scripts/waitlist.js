@@ -21,7 +21,7 @@ const waiting = [
     name: "Overrrrit_",
   },
   {
-    name: "Budleiser?",
+    name: "bud_leiser",
   },
   {
     name: "FranklinTurtz",
