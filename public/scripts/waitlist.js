@@ -29,6 +29,9 @@ const waiting = [
   {
     name: "Prxmeth3us",
   },
+  {
+    name: "DillThrill"
+  },
 ];
 
 const onHold = [
