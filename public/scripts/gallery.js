@@ -1,5 +1,15 @@
 const gallery = [
   {
+    alt: "Batch of 4 emotes for Tzenglishmuffin on Twitch",
+    src: '"images/muffin-emotes.webp"',
+    desc: "Emotes for Tzenglishmuffin",
+  },
+  {
+    alt: "A batch of emotes for Chester on Twitch",
+    src: '"images/chester-emotes.webp"',
+    desc: "Emotes for Chester Dwight",
+  },
+  {
     alt: "Assorted Sombreros and a cowboy hat for SmileyRaider96",
     src: '"images/smiley-hats.jpg"',
     desc: "Sub Badges for SmileyRaider96",
