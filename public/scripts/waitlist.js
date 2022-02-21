@@ -1,45 +1,49 @@
 const waiting = [
   {
-    name: "Big Moose",
+    "name": "Big Moose",
   },
   {
-    name: "Notorious_BLT",
+    "name": "Notorious_BLT",
   },
   {
-    name: "OnBumpers",
+    "name": "OnBumpers",
   },
   {
-    name: "MelvinS0n",
+    "name": "MelvinS0n",
   },
   {
-    name: "T0xicLibra",
+    "name": "T0xicLibra",
   },
   {
-    name: "Jarl Maxi",
+    "name": "Jarl Maxi",
   },
   {
-    name: "Overrrrit_",
+    "name": "Overrrrit_",
   },
   {
-    name: "bud_leiser",
+    "name": "bud_leiser",
   },
   {
-    name: "FranklinTurtz",
+    "name": "FranklinTurtz",
   },
   {
-    name: "Prxmeth3us",
+    "name": "Prxmeth3us",
   },
   {
-    name: "DillThrill"
+    "name": "DillThrill"
   },
+  {
+    "name": "Unc"
+  }
 ];
 
 const onHold = [
+  
   {
-    name: "HeyCallMeClay",
+    "name": "TommyYoza",
   },
   {
-    name: "TommyYoza",
+    "name": "TzEnglishMuffin"
   },
 ];
 
@@ -48,14 +52,16 @@ const working = [
     "name": "SilverKestrelStudios"
   },
   {
-    "name": "TzEnglishMuffin"
+    "name": "HeyCallMeClay",
   },
-  {
-    "name": "Justin Gigantor"
-  },
+  
 ];
 
 const complete = [
+  {
+    "name": "Justin Gigantor",
+    "work": "Profile Avatar"
+  },
   {
     "name": "Chester_Dwight",
     "work": "Three Emotes for Twitch"
