@@ -1,7 +1,5 @@
 const waiting = [
-  {
-    "name": "Big Moose",
-  },
+  
   {
     "name": "Notorious_BLT",
   },
@@ -33,7 +31,7 @@ const waiting = [
     "name": "DillThrill"
   },
   {
-    "name": "Unc"
+    "name": "Inkuh1"
   }
 ];
 
@@ -52,12 +50,16 @@ const working = [
     "name": "SilverKestrelStudios"
   },
   {
-    "name": "HeyCallMeClay",
+    "name": "Big Moose",
   },
   
 ];
 
 const complete = [
+  {
+    "name": "HeyCallMeClay",
+    "work": "Sub Badges"
+  },
   {
     "name": "Justin Gigantor",
     "work": "Profile Avatar"
@@ -343,7 +345,7 @@ const complete = [
 let waitTable = '<table>';
 waitTable += '<tr><th>Name</th></tr>'
 
-const client = waiting.forEach(function(item){
+const clientWait = waiting.forEach(function(item){
   waitTable += `
   <tr>
   <td>${item.name}</td>
