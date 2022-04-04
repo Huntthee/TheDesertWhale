@@ -1,6 +1,4 @@
 const waiting = [
-  
-  
   {
     "name": "MelvinS0n",
   },
@@ -27,11 +25,19 @@ const waiting = [
   },
   {
     "name": "Inkuh1"
-  }
+  },
+  {
+    "name": "Omar94"
+  },
+  {
+    "name": "Bo Baggin"
+  },
 ];
 
 const onHold = [
-  
+  {
+    "name": "SilverKestrelStudios"
+  },
   {
     "name": "TommyYoza",
   },
@@ -42,18 +48,15 @@ const onHold = [
 
 const working = [
   {
-    "name": "SilverKestrelStudios"
-  },
-  {
     "name": "Notorious_BLT",
   },
-  {
-    "name": "OnBumpers",
-  },
-  
 ];
 
 const complete = [
+  {
+    "name": "OnBumpers",
+    "work": "Emote for Twitch"
+  },
   {
     "name": "Big Moose",
     "work": "Five Emotes and Sub Badge"
