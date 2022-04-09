@@ -1,18 +1,6 @@
 const waiting = [
   {
-    "name": "MelvinS0n",
-  },
-  {
-    "name": "T0xicLibra",
-  },
-  {
     "name": "Jarl Maxi",
-  },
-  {
-    "name": "Overrrrit_",
-  },
-  {
-    "name": "bud_leiser",
   },
   {
     "name": "FranklinTurtz",
@@ -36,83 +24,97 @@ const waiting = [
 
 const onHold = [
   {
-    "name": "SilverKestrelStudios"
+    name: "SilverKestrelStudios",
   },
   {
-    "name": "TommyYoza",
+    name: "TommyYoza",
   },
   {
-    "name": "TzEnglishMuffin"
+    name: "TzEnglishMuffin",
+  },
+  {
+    name: "T0xicLibra",
   },
 ];
 
 const working = [
   {
-    "name": "Notorious_BLT",
+    name: "Overrrrit_",
+  },
+  {
+    name: "bud_leiser",
   },
 ];
 
 const complete = [
   {
-    "name": "OnBumpers",
-    "work": "Emote for Twitch"
+    name: "MelvinS0n",
+    work: "Emote for Twitch"
   },
   {
-    "name": "Big Moose",
-    "work": "Five Emotes and Sub Badge"
+    name: "Notorious_BLT",
+    work: "Twenty Emotes for Twitch!"
   },
   {
-    "name": "HeyCallMeClay",
-    "work": "Sub Badges"
+    name: "OnBumpers",
+    work: "Emote for Twitch",
   },
   {
-    "name": "Justin Gigantor",
-    "work": "Profile Avatar"
+    name: "Big Moose",
+    work: "Five Emotes and Sub Badge",
   },
   {
-    "name": "Chester_Dwight",
-    "work": "Three Emotes for Twitch"
+    name: "HeyCallMeClay",
+    work: "Sub Badges",
   },
   {
-    "name": "SmileyRaider96",
-    "work": "Sub Badges for Twitch"
+    name: "Justin Gigantor",
+    work: "Profile Avatar",
   },
   {
-    "name": "NoAimDontFlame",
-    "work": "Emote for Twitch"
+    name: "Chester_Dwight",
+    work: "Three Emotes for Twitch",
   },
   {
-    "name": "AceAttorneyMeeks",
-    "work": "Two Emotes for Twitch"
+    name: "SmileyRaider96",
+    work: "Sub Badges for Twitch",
   },
   {
-    name: 'Millz_xo',
-    work: "Sub Badges for Twitch"
+    name: "NoAimDontFlame",
+    work: "Emote for Twitch",
+  },
+  {
+    name: "AceAttorneyMeeks",
+    work: "Two Emotes for Twitch",
+  },
+  {
+    name: "Millz_xo",
+    work: "Sub Badges for Twitch",
   },
   {
     name: "ThePluckyAvatar",
-    work: "Two Twitch Scenes"
+    work: "Two Twitch Scenes",
   },
   {
     name: "Lexxo",
-    work: "Illustration"
+    work: "Illustration",
   },
   {
     name: "Kamizard",
-    work: "Emote for Twitch"
+    work: "Emote for Twitch",
   },
   {
     name: "Tb0neT0ne",
-    work: "Logo for merch"
+    work: "Logo for merch",
   },
-  
+
   {
     name: "Mrbrighside1",
-    work: "Background Illustration"
+    work: "Background Illustration",
   },
   {
     name: "FranklinTurtz",
-    work: "Emote for Twitch"
+    work: "Emote for Twitch",
   },
   {
     name: "MelvinS0n",
