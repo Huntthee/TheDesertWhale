@@ -1,18 +1,18 @@
 const gallery = [
   {
-    alt: "",
+    alt: "A spread of new Orc & Goblin emotes for Notorious_BLT on Twitch",
     src: '"images/notor-orc-emotes.webp"',
-    desc: "",
+    desc: "Emotes for Notorious_BLT on Twitch",
   },
   {
-    alt: "",
+    alt: "Cat emotes for Killersassist on Twitch",
     src: '"images/killer-cat-emotes.webp"',
-    desc: "",
+    desc: "Emotes for Killerassist",
   },
   {
-    alt: "",
+    alt: "A dog with an energy weapon emote for Melvinson on Twitch",
     src: '"images/melvin-emote.webp"',
-    desc: "",
+    desc: "Emote for Melvinson on Twitch",
   },
   {
     alt: "Batch of 4 emotes for Tzenglishmuffin on Twitch",
