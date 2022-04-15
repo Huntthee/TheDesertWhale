@@ -1,5 +1,20 @@
 const gallery = [
   {
+    alt: "",
+    src: '"images/notor-orc-emotes.webp"',
+    desc: "",
+  },
+  {
+    alt: "",
+    src: '"images/killer-cat-emotes.webp"',
+    desc: "",
+  },
+  {
+    alt: "",
+    src: '"images/melvin-emote.webp"',
+    desc: "",
+  },
+  {
     alt: "Batch of 4 emotes for Tzenglishmuffin on Twitch",
     src: '"images/muffin-emotes.webp"',
     desc: "Emotes for Tzenglishmuffin",
