@@ -1,8 +1,5 @@
 const waiting = [
   {
-    "name": "Jarl Maxi",
-  },
-  {
     "name": "FranklinTurtz",
   },
   {
@@ -20,6 +17,9 @@ const waiting = [
   {
     "name": "Bo Baggin"
   },
+  {
+    "name": "BJ (BeefJerky)"
+  }
 ];
 
 const onHold = [
@@ -35,18 +35,23 @@ const onHold = [
   {
     name: "T0xicLibra",
   },
+  {
+    name: "Jarl Maxi",
+  },
 ];
 
 const working = [
-  {
-    name: "Overrrrit_",
-  },
+ 
   {
     name: "bud_leiser",
   },
 ];
 
 const complete = [
+  {
+    name: "Overrrrit_",
+    work: "An Emote for Twitch"
+  },
   {
     name: "MelvinS0n",
     work: "Emote for Twitch"
