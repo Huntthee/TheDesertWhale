@@ -1,24 +1,27 @@
 const waiting = [
   {
-    "name": "FranklinTurtz",
+    name: "DillThrill"
   },
   {
-    "name": "Prxmeth3us",
+    name: "Inkuh1"
   },
   {
-    "name": "DillThrill"
+    name: "Omar94"
   },
   {
-    "name": "Inkuh1"
+    name: "Bo Baggin"
   },
   {
-    "name": "Omar94"
+    name: "BJ (BeefJerky)"
   },
   {
-    "name": "Bo Baggin"
+    name: "Notorious_BLT"
   },
   {
-    "name": "BJ (BeefJerky)"
+    name: "Arcadio"
+  },
+  {
+    name: "Kamizard"
   }
 ];
 
@@ -41,24 +44,31 @@ const onHold = [
 ];
 
 const working = [
- 
   {
-    name: "bud_leiser",
+    name: "Prxmeth3us",
   },
 ];
 
 const complete = [
   {
+    name: "bud_leiser",
+    work: "Emotes and Sub Badges for Twitch"
+  },
+  {
+    name: "FranklinTurtz",
+    work: "Emote for Twitch",
+  },
+  {
     name: "Overrrrit_",
-    work: "An Emote for Twitch"
+    work: "An Emote for Twitch",
   },
   {
     name: "MelvinS0n",
-    work: "Emote for Twitch"
+    work: "Emote for Twitch",
   },
   {
     name: "Notorious_BLT",
-    work: "Twenty Emotes for Twitch!"
+    work: "Twenty Emotes for Twitch!",
   },
   {
     name: "OnBumpers",
